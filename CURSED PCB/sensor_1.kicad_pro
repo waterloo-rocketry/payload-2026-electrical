@@ -759,6 +759,10 @@
     [
       "543706d6-8cb0-4c51-81f6-888765ec3907",
       "Amplifer"
+    ],
+    [
+      "1dbad184-dd5f-4b28-bd02-77889e07b3d7",
+      "anti-aliasing filter"
     ]
   ],
   "text_variables": {}

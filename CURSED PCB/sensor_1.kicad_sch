@@ -2595,9 +2595,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Things left to do:\n\nAdd amounts for resistors and capactiors\n\nWire up the SD card to other components use last year as ref"
+	(text "Things left to do:\n\nAdd amounts for resistors and capactiors, use last year as ref\n"
 		(exclude_from_sim no)
-		(at 16.256 163.322 0)
+		(at 183.388 174.498 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2870,6 +2870,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 163.83) (xy 110.49 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30645a1c-b96a-43f0-bcf6-bd07c1a0a72f")
+	)
+	(wire
+		(pts
 			(xy 110.49 161.29) (xy 100.33 161.29)
 		)
 		(stroke
@@ -3010,6 +3020,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 168.91) (xy 110.49 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "625457bf-aeba-48ff-8ed2-19008642f49e")
+	)
+	(wire
+		(pts
 			(xy 196.85 100.33) (xy 196.85 102.87)
 		)
 		(stroke
@@ -3067,6 +3087,16 @@
 			(type default)
 		)
 		(uuid "7d07a1b5-3de6-40e8-9d3c-70e453890176")
+	)
+	(wire
+		(pts
+			(xy 64.77 156.21) (xy 110.49 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84a760bf-d7a2-4df9-945a-230bc46ab026")
 	)
 	(wire
 		(pts
@@ -3330,6 +3360,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 158.75) (xy 110.49 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eec06ffc-93e8-4be5-b8e0-0cc7e8084667")
+	)
+	(wire
+		(pts
 			(xy 196.85 73.66) (xy 204.47 73.66)
 		)
 		(stroke
@@ -3426,7 +3466,17 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "15ff0c65-bbb4-4f3a-b961-d860ce777807")
+		(uuid "15ff0c65-bbb4-4f3a-b961-d860ce777808")
+	)
+	(label "SCLK"
+		(at 63.5 163.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2b8d843b-8f81-4f7a-b608-44dac34826d2")
 	)
 	(label "MCLR"
 		(at 76.2 45.72 180)
@@ -3466,7 +3516,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "2d8351a5-cb49-4d54-9288-15422beb88ea")
+		(uuid "2d8351a5-cb49-4d54-9288-15422beb88eb")
 	)
 	(label "PGC{slash}ICSPDAT"
 		(at 49.53 111.76 0)
@@ -3486,7 +3536,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "44516000-42e3-45b6-9569-ad89f7afb3ea")
+		(uuid "44516000-42e3-45b6-9569-ad89f7afb3eb")
 	)
 	(label "IRQ"
 		(at 82.55 58.42 180)
@@ -3516,7 +3566,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "6759ed14-1e7f-4cdb-b2d2-b9c8e1b4e6e9")
+		(uuid "6759ed14-1e7f-4cdb-b2d2-b9c8e1b4e6ea")
 	)
 	(label "MKLKIN"
 		(at 228.6 39.37 180)
@@ -3526,7 +3576,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "6759ed14-1e7f-4cdb-b2d2-b9c8e1b4e6e9")
+		(uuid "6759ed14-1e7f-4cdb-b2d2-b9c8e1b4e6eb")
 	)
 	(label "MISO"
 		(at 228.6 36.83 180)
@@ -3536,7 +3586,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "6759ed14-1e7f-4cdb-b2d2-b9c8e1b4e6e9")
+		(uuid "6759ed14-1e7f-4cdb-b2d2-b9c8e1b4e6ec")
 	)
 	(label "SCLK"
 		(at 228.6 26.67 180)
@@ -3546,7 +3596,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "6759ed14-1e7f-4cdb-b2d2-b9c8e1b4e6e9")
+		(uuid "6759ed14-1e7f-4cdb-b2d2-b9c8e1b4e6ed")
 	)
 	(label "CS"
 		(at 228.6 29.21 180)
@@ -3556,7 +3606,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "6759ed14-1e7f-4cdb-b2d2-b9c8e1b4e6e9")
+		(uuid "6759ed14-1e7f-4cdb-b2d2-b9c8e1b4e6ee")
 	)
 	(label "CUR_SEN"
 		(at 232.41 71.12 180)
@@ -3588,6 +3638,16 @@
 		)
 		(uuid "876642b2-fff3-467a-b08a-24af64fb4f18")
 	)
+	(label "MISO"
+		(at 63.5 168.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8e206d14-fd43-400b-96e1-3619714becf2")
+	)
 	(label "CS"
 		(at 83.82 68.58 180)
 		(effects
@@ -3597,6 +3657,16 @@
 			(justify right bottom)
 		)
 		(uuid "9ea2c180-451f-496f-b994-a8593bc0fdca")
+	)
+	(label "CS"
+		(at 64.77 156.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b63562b6-e77d-46f2-8e62-de92b0757289")
 	)
 	(label "OCS2{slash}CLKOUT"
 		(at 190.5 132.08 180)
@@ -3626,7 +3696,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "d8845497-7449-4426-a36f-7ec94d6ac7ed")
+		(uuid "d8845497-7449-4426-a36f-7ec94d6ac7ee")
 	)
 	(label "MISO"
 		(at 133.35 73.66 0)
@@ -3647,6 +3717,16 @@
 			(justify right bottom)
 		)
 		(uuid "dd498251-0832-4b5c-af87-50394373bcfe")
+	)
+	(label "MOSI"
+		(at 64.77 158.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dd695035-e6bd-4bcd-a684-13be009d9544")
 	)
 	(label "CUR_SEN"
 		(at 134.62 53.34 0)
@@ -3879,10 +3959,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1a22ac76-27f7-4860-8d80-f9d38dfba647")
 		(property "Reference" "D1"
-			(at 54.61 34.6074 90)
+			(at 53.34 27.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3890,8 +3969,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
-			(at 54.61 37.1474 90)
+		(property "Value" "RED LED"
+			(at 53.34 30.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4364,8 +4443,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "38d7dd35-fc96-4a8a-b603-45a98d43e481")
-		(property "Reference" "D4"
-			(at 18.542 33.274 90)
+		(property "Reference" "D3"
+			(at 26.67 27.432 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4373,8 +4452,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
-			(at 18.542 35.814 90)
+		(property "Value" "GREEN LED"
+			(at 26.67 29.972 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4427,7 +4506,7 @@
 		(instances
 			(project "sensor_1"
 				(path "/9fb1a86f-679c-4b88-9ed1-932f4f414580"
-					(reference "D4")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -4442,8 +4521,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3de494b8-63d6-4bed-8523-e3625d092d12")
-		(property "Reference" "D3"
-			(at 31.242 33.274 90)
+		(property "Reference" "D2"
+			(at 40.132 28.194 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4451,8 +4530,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
-			(at 31.242 35.814 90)
+		(property "Value" "BLUE LED"
+			(at 40.132 30.734 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4505,7 +4584,7 @@
 		(instances
 			(project "sensor_1"
 				(path "/9fb1a86f-679c-4b88-9ed1-932f4f414580"
-					(reference "D3")
+					(reference "D2")
 					(unit 1)
 				)
 			)

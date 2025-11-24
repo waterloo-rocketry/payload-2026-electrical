@@ -2344,7 +2344,7 @@
 			)
 			(justify left)
 		)
-		(uuid "ccb9e82e-af2b-4629-8683-947370e1b6a8")
+		(uuid "ccb9e82e-af2b-4629-8683-947370e1b6a9")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -2900,10 +2900,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6df4785f-1b74-4389-8a1d-03b33ab078e7")
 		(property "Reference" "TP2"
-			(at 205.74 50.0379 0)
+			(at 205.994 51.562 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2918,6 +2917,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -3253,10 +3253,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "97353fd1-4060-4df0-b5a6-89919b470933")
 		(property "Reference" "TP3"
-			(at 208.28 84.3279 0)
+			(at 208.026 86.106 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3271,6 +3270,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -4407,10 +4407,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "fed59ab1-c8b2-4c3b-b07d-61a4a3647c89")
 		(property "Reference" "TP1"
-			(at 115.57 52.5779 0)
+			(at 115.062 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4418,13 +4417,14 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "~"
 			(at 115.57 55.1179 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
