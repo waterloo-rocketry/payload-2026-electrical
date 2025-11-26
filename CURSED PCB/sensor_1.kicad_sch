@@ -3090,6 +3090,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 66.04) (xy 134.62 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ddf1e84-9e2c-4bf1-a209-2165a5823084")
+	)
+	(wire
+		(pts
 			(xy 64.77 156.21) (xy 110.49 156.21)
 		)
 		(stroke
@@ -3380,6 +3390,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 63.5) (xy 134.62 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f647daed-6133-4291-83b6-d163221ef074")
+	)
+	(wire
+		(pts
 			(xy 124.46 73.66) (xy 133.35 73.66)
 		)
 		(stroke
@@ -3518,6 +3538,16 @@
 		)
 		(uuid "2d8351a5-cb49-4d54-9288-15422beb88eb")
 	)
+	(label "TXD{slash}CANTX"
+		(at 134.62 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3f3f220b-f0e1-4bbf-b367-0214a21dd97f")
+	)
 	(label "PGC{slash}ICSPDAT"
 		(at 49.53 111.76 0)
 		(effects
@@ -3617,6 +3647,16 @@
 			(justify right bottom)
 		)
 		(uuid "68392909-dcbb-45c8-a4f0-d4a6c522693a")
+	)
+	(label "RXD{slash}CANRX"
+		(at 134.62 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6a9ef965-116d-4c96-98b3-10a7328cbc7a")
 	)
 	(label "SCLK"
 		(at 133.35 71.12 0)
@@ -4828,7 +4868,7 @@
 				)
 			)
 		)
-		(property "Value" "C_0201"
+		(property "Value" "0.1µF"
 			(at 120.65 25.4 90)
 			(effects
 				(font

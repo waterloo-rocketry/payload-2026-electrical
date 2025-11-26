@@ -318,7 +318,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PCM_Amplifier_Operational_AKL:OPA313IDBV"
+		(symbol "PCM_Amplifier_Operational_AKL:OPAMP_5-pin_Generic"
 			(pin_names
 				(offset 0.2)
 			)
@@ -326,7 +326,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 0 7.62 0)
+				(at 2.54 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -334,8 +334,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "OPA313IDBV"
-				(at 0 5.08 0)
+			(property "Value" "OPAMP_5-pin_Generic"
+				(at 2.54 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -343,7 +343,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "PCM_Package_TO_SOT_SMD_AKL:SOT-23-5"
+			(property "Footprint" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -352,7 +352,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/opa313.pdf?ts=1640621921608&ref_url=https%253A%252F%252Fwww.google.com%252F"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -361,7 +361,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "SOT-23-5 Micropower RRIO Operational Amplifier, 2.5mV Offset, 2μV/°C Drift, 1MHz GBW, 50μA Supply Current per Amplifier, Alternate KiCAD Library"
+			(property "Description" "Operational Amplifier, generic symbol, Alternate KiCAD Library"
 				(at 0 0 0)
 				(effects
 					(font
@@ -370,7 +370,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "opamp operational amplifier micropower rrio rail-to-rail OPA313"
+			(property "ki_keywords" "opamp operational amplifier generic"
 				(at 0 0 0)
 				(effects
 					(font
@@ -379,7 +379,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "OPA313IDBV_0_1"
+			(symbol "OPAMP_5-pin_Generic_0_1"
 				(polyline
 					(pts
 						(xy -5.08 5.08) (xy -5.08 -5.08) (xy 5.08 0) (xy -5.08 5.08)
@@ -393,7 +393,7 @@
 					)
 				)
 			)
-			(symbol "OPA313IDBV_1_1"
+			(symbol "OPAMP_5-pin_Generic_1_1"
 				(pin input line
 					(at -7.62 2.54 0)
 					(length 2.54)
@@ -714,9 +714,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Reference sheet:\nhttps://www.ti.com/lit/an/slyt626/slyt626.pdf?ts=1763997895234&ref_url=https%253A%252F%252Fwww.google.com%252F"
+	(text "Reference sheet:\nhttps://ez.analog.com/cfs-file/__key/communityserver-wikis-components-files/00-00-00-06-97/KWIK_5F00_FAQ-_2D00_-Design-of-an-anti_2D00_aliasing-Sallen_2D00_Key"
 		(exclude_from_sim no)
-		(at 17.018 191.008 0)
+		(at 107.188 18.288 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -726,14 +726,32 @@
 		(uuid "e4476048-1243-42be-903c-98903afe6a1d")
 	)
 	(junction
-		(at 85.09 105.41)
+		(at 111.76 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f5f6a447-d19e-470f-8c35-f0e89d558918")
+		(uuid "1492e21a-f1d9-42b6-ac6e-68ed166d03e8")
+	)
+	(junction
+		(at 96.52 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aefef563-2705-4c29-aae6-7c880477745a")
+	)
+	(junction
+		(at 91.44 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e7755b9f-612a-4e53-84bc-5ab8c1c3a685")
+	)
+	(junction
+		(at 72.39 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fa6b88d2-7068-4a4f-b9cc-f879d9dcd3a2")
 	)
 	(wire
 		(pts
-			(xy 85.09 105.41) (xy 85.09 111.76)
+			(xy 91.44 100.33) (xy 91.44 106.68)
 		)
 		(stroke
 			(width 0)
@@ -743,17 +761,37 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 105.41) (xy 96.52 105.41)
+			(xy 102.87 71.12) (xy 102.87 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "68d9bd9f-3051-4977-a849-dbcb1e3061cf")
+		(uuid "62f07a5c-c24c-4d06-9fcf-fe555605a530")
 	)
 	(wire
 		(pts
-			(xy 85.09 116.84) (xy 85.09 120.65)
+			(xy 96.52 76.2) (xy 111.76 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6dd3898c-776c-4c99-a5b6-404d121dcd54")
+	)
+	(wire
+		(pts
+			(xy 85.09 76.2) (xy 96.52 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74fc9c8d-a84b-4747-8601-9fb570509cc6")
+	)
+	(wire
+		(pts
+			(xy 91.44 111.76) (xy 91.44 115.57)
 		)
 		(stroke
 			(width 0)
@@ -763,7 +801,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 105.41) (xy 71.12 105.41)
+			(xy 50.8 100.33) (xy 60.96 100.33)
 		)
 		(stroke
 			(width 0)
@@ -773,7 +811,27 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 105.41) (xy 85.09 105.41)
+			(xy 85.09 100.33) (xy 91.44 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9150f0ee-727d-4756-a272-9c557651ceb5")
+	)
+	(wire
+		(pts
+			(xy 111.76 76.2) (xy 111.76 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "943c0bf2-d360-4903-8879-abc1dc5f6cde")
+	)
+	(wire
+		(pts
+			(xy 68.58 100.33) (xy 72.39 100.33)
 		)
 		(stroke
 			(width 0)
@@ -783,37 +841,77 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 80.01) (xy 102.87 96.52)
+			(xy 102.87 104.14) (xy 102.87 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b088985d-a07c-4e87-82f3-c05d4514ed59")
+		(uuid "a1d64a5f-7d71-47b9-858e-1a05291aa223")
 	)
 	(wire
 		(pts
-			(xy 102.87 109.22) (xy 102.87 115.57)
+			(xy 80.01 76.2) (xy 72.39 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b2084977-401b-4082-bc38-7826b3f2d3ab")
+		(uuid "b8c46693-4fc9-4df0-b878-cb0b3538cc1b")
 	)
 	(wire
 		(pts
-			(xy 156.21 80.01) (xy 156.21 99.06)
+			(xy 96.52 76.2) (xy 96.52 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e607709c-f68b-4795-9e76-e8ef4f6a2520")
+		(uuid "c899692c-322c-4695-9af0-ec607834c0f7")
+	)
+	(wire
+		(pts
+			(xy 91.44 100.33) (xy 96.52 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbeb538e-4309-4137-ac66-3ba785671950")
+	)
+	(wire
+		(pts
+			(xy 72.39 100.33) (xy 77.47 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5661d8d-c701-4b7a-86c1-60cb69a9595e")
+	)
+	(wire
+		(pts
+			(xy 133.35 97.79) (xy 111.76 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7a7b393-1ded-4242-868b-327cd3ab06b5")
+	)
+	(wire
+		(pts
+			(xy 72.39 76.2) (xy 72.39 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2c26c5d-1613-485f-ae8e-93b03598e78f")
 	)
 	(hierarchical_label "VIN"
 		(shape output)
-		(at 60.96 105.41 180)
+		(at 50.8 100.33 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -824,18 +922,18 @@
 	)
 	(hierarchical_label "VOUT"
 		(shape input)
-		(at 200.66 101.6 180)
+		(at 133.35 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "a7f70514-3f0c-4133-b3b8-1c309a9e3c36")
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 85.09 120.65 0)
+		(at 91.44 115.57 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -844,7 +942,7 @@
 		(dnp no)
 		(uuid "178242db-609c-451f-af5c-114637ed7bef")
 		(property "Reference" "#PWR047"
-			(at 85.09 127 0)
+			(at 91.44 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -853,7 +951,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 85.09 125.73 0)
+			(at 91.44 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -861,7 +959,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 85.09 120.65 0)
+			(at 91.44 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -870,7 +968,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 85.09 120.65 0)
+			(at 91.44 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -879,7 +977,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 85.09 120.65 0)
+			(at 91.44 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -901,34 +999,32 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 85.09 114.3 0)
+		(at 82.55 76.2 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "275d618e-cb6e-4e6a-a189-8bc5e720d94c")
-		(property "Reference" "C18"
-			(at 87.63 113.0362 0)
+		(uuid "1a52c6c5-8323-49cb-a815-501fc7619b98")
+		(property "Reference" "C5"
+			(at 82.5563 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "C_Small"
-			(at 87.63 115.5762 0)
+			(at 82.5563 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 85.09 114.3 0)
+			(at 82.55 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -937,7 +1033,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 85.09 114.3 0)
+			(at 82.55 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -946,7 +1042,77 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 85.09 114.3 0)
+			(at 82.55 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6b149a12-918f-4cc1-9d42-caf5c338d590")
+		)
+		(pin "2"
+			(uuid "7b8f9842-81f1-40f5-92d2-48ec2c691da5")
+		)
+		(instances
+			(project "sensor_1"
+				(path "/9fb1a86f-679c-4b88-9ed1-932f4f414580/543706d6-8cb0-4c51-81f6-888765ec3907/1dbad184-dd5f-4b28-bd02-77889e07b3d7"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 91.44 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "275d618e-cb6e-4e6a-a189-8bc5e720d94c")
+		(property "Reference" "C18"
+			(at 93.98 107.9562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C_Small"
+			(at 93.98 110.4962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 91.44 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -970,94 +1136,17 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Amplifier_Operational_AKL:OPA313IDBV")
-		(at 157.48 105.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6807488e-93eb-47a5-93e7-e892cf10a452")
-		(property "Reference" "U10"
-			(at 170.18 98.9898 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "OPA2314AIDR"
-			(at 170.18 101.5298 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_Package_TO_SOT_SMD_AKL:SOT-23-5"
-			(at 157.48 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/opa313.pdf?ts=1640621921608&ref_url=https%253A%252F%252Fwww.google.com%252F"
-			(at 157.48 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SOT-23-5 Micropower RRIO Operational Amplifier, 2.5mV Offset, 2μV/°C Drift, 1MHz GBW, 50μA Supply Current per Amplifier, Alternate KiCAD Library"
-			(at 157.48 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "5356199e-d2bb-4332-a28f-67de4d03883b")
-		)
-		(pin "4"
-			(uuid "fa1bbd13-7e3e-4a96-918b-23eec057e50a")
-		)
-		(pin "1"
-			(uuid "6d1ca245-b52e-4c8c-b0d0-e2589e55fa14")
-		)
-		(pin "2"
-			(uuid "00337a7e-4007-4466-b48e-f9fa2b38c9b6")
-		)
-		(pin "3"
-			(uuid "28de650c-7a7a-4f2e-a5a8-447312e111f1")
-		)
-		(instances
-			(project "sensor_1"
-				(path "/9fb1a86f-679c-4b88-9ed1-932f4f414580/543706d6-8cb0-4c51-81f6-888765ec3907/1dbad184-dd5f-4b28-bd02-77889e07b3d7"
-					(reference "U10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 102.87 115.57 0)
+		(at 102.87 111.76 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "7e8a176d-eb1b-469e-88e7-d0c1781fc539")
-		(property "Reference" "#PWR048"
-			(at 102.87 121.92 0)
+		(uuid "6ef2397d-4877-42d6-936e-57d6cdeaf6b2")
+		(property "Reference" "#PWR046"
+			(at 102.87 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1066,7 +1155,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 102.87 120.65 0)
+			(at 102.87 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1074,7 +1163,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 102.87 115.57 0)
+			(at 102.87 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1083,7 +1172,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 115.57 0)
+			(at 102.87 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1092,7 +1181,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 102.87 115.57 0)
+			(at 102.87 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1101,12 +1190,78 @@
 			)
 		)
 		(pin "1"
-			(uuid "6be659da-6584-4906-a181-756644df8a7a")
+			(uuid "d46adaba-cd07-44ab-811b-53c661613fe2")
 		)
 		(instances
 			(project "sensor_1"
 				(path "/9fb1a86f-679c-4b88-9ed1-932f4f414580/543706d6-8cb0-4c51-81f6-888765ec3907/1dbad184-dd5f-4b28-bd02-77889e07b3d7"
-					(reference "#PWR048")
+					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 102.87 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "790bf69d-2add-421b-a392-560e30d3bfc9")
+		(property "Reference" "#PWR045"
+			(at 102.87 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 102.87 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 102.87 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1d36bb6b-31f8-452d-b0c3-ea88192826e8")
+		)
+		(instances
+			(project ""
+				(path "/9fb1a86f-679c-4b88-9ed1-932f4f414580/543706d6-8cb0-4c51-81f6-888765ec3907/1dbad184-dd5f-4b28-bd02-77889e07b3d7"
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -1114,7 +1269,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 74.93 105.41 90)
+		(at 64.77 100.33 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1123,15 +1278,15 @@
 		(fields_autoplaced yes)
 		(uuid "91914150-c109-44fb-9f86-4423aed1ba04")
 		(property "Reference" "R9"
-			(at 74.93 99.06 90)
+			(at 64.77 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "R_US"
-			(at 74.93 101.6 90)
+		(property "Value" "51kΩ"
+			(at 64.77 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1139,7 +1294,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 75.184 104.394 90)
+			(at 65.024 99.314 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1148,7 +1303,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 74.93 105.41 0)
+			(at 64.77 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1157,7 +1312,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 74.93 105.41 0)
+			(at 64.77 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1181,42 +1336,33 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Amplifier_Operational_AKL:OPA313IDBV")
-		(at 104.14 102.87 0)
+		(lib_id "Device:R_US")
+		(at 81.28 100.33 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "92f2ece8-2665-4232-8b41-93a3b31aca2e")
-		(property "Reference" "U9"
-			(at 116.84 96.4498 0)
+		(uuid "e2ed8f10-a3d3-4296-a54e-550e2e49cdf0")
+		(property "Reference" "R10"
+			(at 81.28 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "OPA2314AIDR"
-			(at 116.84 98.9898 0)
+		(property "Value" "51kΩ"
+			(at 81.28 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "PCM_Package_TO_SOT_SMD_AKL:SOT-23-5"
-			(at 104.14 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/opa313.pdf?ts=1640621921608&ref_url=https%253A%252F%252Fwww.google.com%252F"
-			(at 104.14 102.87 0)
+		(property "Footprint" ""
+			(at 81.534 99.314 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1224,8 +1370,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SOT-23-5 Micropower RRIO Operational Amplifier, 2.5mV Offset, 2μV/°C Drift, 1MHz GBW, 50μA Supply Current per Amplifier, Alternate KiCAD Library"
-			(at 104.14 102.87 0)
+		(property "Datasheet" "~"
+			(at 81.28 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1233,157 +1379,101 @@
 				(hide yes)
 			)
 		)
-		(pin "5"
-			(uuid "b5802703-f2e4-4462-a8bb-d6706440992e")
-		)
-		(pin "4"
-			(uuid "fcfa7066-9c5b-40f6-9dc8-d43b8a57dd1c")
-		)
-		(pin "1"
-			(uuid "dbb145e9-fa40-43e2-b93a-5e998e4b4ced")
+		(property "Description" "Resistor, US symbol"
+			(at 81.28 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "536b6738-4c6a-44c2-842e-a2a7865047b0")
+			(uuid "7633fe47-03b0-4503-88f7-7c998baf5f7c")
+		)
+		(pin "1"
+			(uuid "142e1445-890e-43af-83a3-64e1dc40ab8c")
+		)
+		(instances
+			(project "sensor_1"
+				(path "/9fb1a86f-679c-4b88-9ed1-932f4f414580/543706d6-8cb0-4c51-81f6-888765ec3907/1dbad184-dd5f-4b28-bd02-77889e07b3d7"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Amplifier_Operational_AKL:OPAMP_5-pin_Generic")
+		(at 104.14 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fed93bc7-0bed-4d04-ade6-ec565df4380f")
+		(property "Reference" "U9"
+			(at 120.65 91.3698 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OPAMP_5-pin_Generic"
+			(at 120.65 93.9098 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 104.14 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Operational Amplifier, generic symbol, Alternate KiCAD Library"
+			(at 104.14 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "42025c44-8391-4eb4-aa81-03affd22f650")
+		)
+		(pin "5"
+			(uuid "ba2d0b9f-1f36-41e2-813b-f9247c33e747")
+		)
+		(pin "2"
+			(uuid "119f89a5-693f-42f7-9675-041f55ab0e1e")
 		)
 		(pin "3"
-			(uuid "3fdbae9e-47a0-42ea-a1b2-0331442971d1")
+			(uuid "76902a9a-044b-42cd-9628-d6a0b777ce30")
+		)
+		(pin "1"
+			(uuid "36a075a6-c245-4e4e-af60-c28e351a2fb8")
 		)
 		(instances
 			(project ""
 				(path "/9fb1a86f-679c-4b88-9ed1-932f4f414580/543706d6-8cb0-4c51-81f6-888765ec3907/1dbad184-dd5f-4b28-bd02-77889e07b3d7"
 					(reference "U9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 102.87 80.01 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a56c88ad-a96c-4fee-9270-2df840461310")
-		(property "Reference" "#PWR045"
-			(at 102.87 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 102.87 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 102.87 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 102.87 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 102.87 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "14dcc853-0631-485d-8005-a7e0358db049")
-		)
-		(instances
-			(project ""
-				(path "/9fb1a86f-679c-4b88-9ed1-932f4f414580/543706d6-8cb0-4c51-81f6-888765ec3907/1dbad184-dd5f-4b28-bd02-77889e07b3d7"
-					(reference "#PWR045")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 156.21 80.01 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c575e6f5-1489-4571-888e-b53835a9ddb6")
-		(property "Reference" "#PWR046"
-			(at 156.21 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 156.21 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 156.21 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 156.21 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 156.21 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9b1fe3b6-a552-49db-b54e-8960d39c5c14")
-		)
-		(instances
-			(project "sensor_1"
-				(path "/9fb1a86f-679c-4b88-9ed1-932f4f414580/543706d6-8cb0-4c51-81f6-888765ec3907/1dbad184-dd5f-4b28-bd02-77889e07b3d7"
-					(reference "#PWR046")
 					(unit 1)
 				)
 			)
