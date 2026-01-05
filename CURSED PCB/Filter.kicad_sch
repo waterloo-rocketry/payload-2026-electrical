@@ -1015,7 +1015,7 @@
 				)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "0.75n"
 			(at 82.5563 72.39 90)
 			(effects
 				(font
@@ -1084,7 +1084,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "75p"
 			(at 93.98 110.4962 0)
 			(effects
 				(font
@@ -1413,7 +1413,7 @@
 		(dnp no)
 		(uuid "fed93bc7-0bed-4d04-ade6-ec565df4380f")
 		(property "Reference" "U9"
-			(at 120.65 91.3698 0)
+			(at 121.92 89.916 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1421,7 +1421,7 @@
 			)
 		)
 		(property "Value" "OPAMP_5-pin_Generic"
-			(at 120.65 93.9098 0)
+			(at 121.92 92.456 0)
 			(effects
 				(font
 					(size 1.27 1.27)

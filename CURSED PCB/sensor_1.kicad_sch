@@ -3000,13 +3000,13 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 116.84) (xy 63.5 116.84)
+			(xy 38.1 119.38) (xy 63.5 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5b8e605a-9a3f-4958-a08d-c527f97b3816")
+		(uuid "5d32b54f-60a2-4c5d-be5e-7c9daa459fe2")
 	)
 	(wire
 		(pts
@@ -3057,6 +3057,16 @@
 			(type default)
 		)
 		(uuid "6a688274-34f4-46a2-8354-1cee85e98c64")
+	)
+	(wire
+		(pts
+			(xy 38.1 121.92) (xy 50.8 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c13bed1-5195-4019-bb11-c2336fd31f58")
 	)
 	(wire
 		(pts
@@ -3120,16 +3130,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 121.92) (xy 50.8 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8786168a-0355-4475-8be7-c97249d53ea4")
-	)
-	(wire
-		(pts
 			(xy 124.46 71.12) (xy 133.35 71.12)
 		)
 		(stroke
@@ -3167,6 +3167,16 @@
 			(type default)
 		)
 		(uuid "97aab087-b6f4-40b3-8a96-630e7fea20b1")
+	)
+	(wire
+		(pts
+			(xy 38.1 116.84) (xy 63.5 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f4b5ae4-e369-448c-a376-b64a35b8378a")
 	)
 	(wire
 		(pts
@@ -3320,16 +3330,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 119.38) (xy 63.5 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d93fb946-6f8f-4dfd-b7d3-11da6eeadd04")
-	)
-	(wire
-		(pts
 			(xy 82.55 144.78) (xy 76.2 144.78)
 		)
 		(stroke
@@ -3360,16 +3360,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 111.76) (xy 49.53 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9498e84-affc-4f00-b551-d00897642a5b")
-	)
-	(wire
-		(pts
 			(xy 64.77 158.75) (xy 110.49 158.75)
 		)
 		(stroke
@@ -3397,6 +3387,16 @@
 			(type default)
 		)
 		(uuid "f647daed-6133-4291-83b6-d163221ef074")
+	)
+	(wire
+		(pts
+			(xy 38.1 111.76) (xy 49.53 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7ccd684-0dc3-42ae-acdd-62334e60ab55")
 	)
 	(wire
 		(pts
@@ -4087,7 +4087,7 @@
 				)
 			)
 		)
-		(property "Value" "C_0201"
+		(property "Value" "27pF"
 			(at 226.06 127 90)
 			(effects
 				(font
@@ -4288,7 +4288,7 @@
 				)
 			)
 		)
-		(property "Value" "C_0201"
+		(property "Value" "0.1uF"
 			(at 208.28 68.58 90)
 			(effects
 				(font
@@ -5069,7 +5069,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "330R"
 			(at 40.64 46.9899 0)
 			(effects
 				(font
@@ -5359,7 +5359,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C_0201"
+		(property "Value" "0.1uF"
 			(at 179.07 105.4099 0)
 			(effects
 				(font
@@ -5428,7 +5428,7 @@
 				)
 			)
 		)
-		(property "Value" "C_0201"
+		(property "Value" "27pF"
 			(at 226.06 147.32 90)
 			(effects
 				(font
@@ -5629,7 +5629,7 @@
 				)
 			)
 		)
-		(property "Value" "C_0201"
+		(property "Value" "0.1uF"
 			(at 86.36 139.7 90)
 			(effects
 				(font
@@ -5681,7 +5681,8 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x05_Socket")
-		(at 38.1 116.84 0)
+		(at 33.02 116.84 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5689,7 +5690,7 @@
 		(dnp no)
 		(uuid "a6c5eeb7-0f09-4467-b893-951873b6a745")
 		(property "Reference" "J3"
-			(at 32.258 104.14 0)
+			(at 38.862 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5698,7 +5699,7 @@
 			)
 		)
 		(property "Value" "Conn_01x05_Socket"
-			(at 32.258 106.68 0)
+			(at 38.862 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5707,7 +5708,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 38.1 116.84 0)
+			(at 33.02 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5716,7 +5717,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 38.1 116.84 0)
+			(at 33.02 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5725,7 +5726,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x05, script generated"
-			(at 38.1 116.84 0)
+			(at 33.02 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6239,7 +6240,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "500R"
 			(at 53.34 46.9899 0)
 			(effects
 				(font
@@ -6375,7 +6376,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "500R"
 			(at 27.94 46.9899 0)
 			(effects
 				(font
@@ -6445,7 +6446,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "10k"
 			(at 78.74 39.3699 0)
 			(effects
 				(font

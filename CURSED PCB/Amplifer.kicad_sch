@@ -1135,235 +1135,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Reference_Voltage:MCP1501-30xSN"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -5.08 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MCP1501-30xSN"
-				(at 11.43 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/20005474E.pdf"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "3V, 0.1%, 20mA, Precision Voltage Reference, SOIC-8"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "precision buffered voltage reference 3V"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MCP1501-30xSN_0_0"
-				(pin input line
-					(at -10.16 0 0)
-					(length 2.54)
-					(name "~{SHDN}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 7.62 270)
-					(length 2.54)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 10.16 2.54 180)
-					(length 2.54)
-					(name "FB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 10.16 -2.54 180)
-					(length 2.54)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "MCP1501-30xSN_0_1"
-				(rectangle
-					(start -7.62 5.08)
-					(end 7.62 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Sensor_Optical:BPW34"
 			(pin_numbers
 				(hide yes)
@@ -2432,15 +2203,15 @@
 		(fields_autoplaced yes)
 		(uuid "014c6135-ebde-4446-a8d3-16e41a118e59")
 		(property "Reference" "C6"
-			(at 154.9463 130.81 90)
+			(at 154.9463 118.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "C_Small"
-			(at 154.9463 128.27 90)
+		(property "Value" "3.3p"
+			(at 154.9463 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2574,8 +2345,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
-			(at 155.956 74.676 0)
+		(property "Value" "1uF"
+			(at 159.004 72.898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2709,7 +2480,7 @@
 				)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "13.7k"
 			(at 143.51 63.5 90)
 			(effects
 				(font
@@ -3117,7 +2888,7 @@
 		(dnp no)
 		(uuid "93bbedfc-d451-4a61-b72f-712ade0caf98")
 		(property "Reference" "C1"
-			(at 127.762 60.96 0)
+			(at 124.714 61.468 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3125,8 +2896,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
-			(at 123.444 58.166 0)
+		(property "Value" "1u"
+			(at 124.714 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3254,15 +3025,15 @@
 		(fields_autoplaced yes)
 		(uuid "9bd38580-66ad-4b18-aa2d-74619a4bd3df")
 		(property "Reference" "R6"
-			(at 154.94 114.3 90)
+			(at 154.94 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "R_US"
-			(at 154.94 111.76 90)
+		(property "Value" "2M"
+			(at 154.94 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3777,94 +3548,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Reference_Voltage:MCP1501-30xSN")
-		(at 134.62 147.32 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e6aab5f5-eb72-42e9-9d94-ff6f557a0032")
-		(property "Reference" "U3"
-			(at 136.7633 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MCP1501-30xSN"
-			(at 136.7633 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 134.62 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/20005474E.pdf"
-			(at 139.7 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "3V, 0.1%, 20mA, Precision Voltage Reference, SOIC-8"
-			(at 134.62 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "8"
-			(uuid "60cc2934-62d1-4283-a07d-2138fda0f0ac")
-		)
-		(pin "2"
-			(uuid "63db3b61-5059-46dd-93ff-9b91a4e5582c")
-		)
-		(pin "7"
-			(uuid "26c8dcb8-25f7-425f-98e7-b06216763544")
-		)
-		(pin "3"
-			(uuid "fab0cc9a-9078-4e71-95f5-ae891fa00b65")
-		)
-		(pin "4"
-			(uuid "577532d2-cbee-4b0b-ae6c-911adf57ec1b")
-		)
-		(pin "1"
-			(uuid "58977112-6bb5-40fc-8434-c1519b26accc")
-		)
-		(pin "5"
-			(uuid "5c9e10f3-4ac1-40f2-bf1c-0af73fbdbc9a")
-		)
-		(pin "6"
-			(uuid "6cb2cf98-8818-4601-9792-09a53d803f87")
-		)
-		(instances
-			(project ""
-				(path "/9fb1a86f-679c-4b88-9ed1-932f4f414580/543706d6-8cb0-4c51-81f6-888765ec3907"
-					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 160.02 93.98 0)
 		(mirror x)
@@ -3949,7 +3632,7 @@
 				)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "280k"
 			(at 125.73 78.74 90)
 			(effects
 				(font
