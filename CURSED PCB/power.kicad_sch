@@ -1652,6 +1652,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "I = 150mA "
+		(exclude_from_sim no)
+		(at 228.854 85.344 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "111f95f0-b8f8-4627-b5bf-baddfdbca6ef")
+	)
 	(text "Left to do on this page (nov-23)\n\nAdd decopuling capactiors, resistors amounts, use last year as reference"
 		(exclude_from_sim no)
 		(at 13.97 95.758 0)

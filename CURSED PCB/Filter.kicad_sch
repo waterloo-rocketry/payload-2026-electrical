@@ -714,9 +714,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Reference sheet:\nhttps://ez.analog.com/cfs-file/__key/communityserver-wikis-components-files/00-00-00-06-97/KWIK_5F00_FAQ-_2D00_-Design-of-an-anti_2D00_aliasing-Sallen_2D00_Key"
+	(text "Reference sheet:\nhttps://ez.analog.com/cfs-filesystemfile/__key/communityserver-wikis-components-files/00-00-00-06-97/KWIK_5F00_FAQ-_2D00_-Design-of-an-anti_2D00_aliasing-Sallen_2D00_Key-filter.pdf?_=638128614376877068"
 		(exclude_from_sim no)
-		(at 107.188 18.288 0)
+		(at 61.976 17.526 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -761,7 +761,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 71.12) (xy 102.87 91.44)
+			(xy 102.87 69.85) (xy 102.87 91.44)
 		)
 		(stroke
 			(width 0)
@@ -941,7 +941,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "178242db-609c-451f-af5c-114637ed7bef")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR045"
 			(at 91.44 121.92 0)
 			(effects
 				(font
@@ -991,7 +991,7 @@
 		(instances
 			(project ""
 				(path "/9fb1a86f-679c-4b88-9ed1-932f4f414580/543706d6-8cb0-4c51-81f6-888765ec3907/1dbad184-dd5f-4b28-bd02-77889e07b3d7"
-					(reference "#PWR047")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -1007,7 +1007,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a52c6c5-8323-49cb-a815-501fc7619b98")
-		(property "Reference" "C5"
+		(property "Reference" "C17"
 			(at 82.5563 69.85 90)
 			(effects
 				(font
@@ -1023,7 +1023,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 82.55 76.2 0)
 			(effects
 				(font
@@ -1059,7 +1059,7 @@
 		(instances
 			(project "sensor_1"
 				(path "/9fb1a86f-679c-4b88-9ed1-932f4f414580/543706d6-8cb0-4c51-81f6-888765ec3907/1dbad184-dd5f-4b28-bd02-77889e07b3d7"
-					(reference "C5")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -1093,7 +1093,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 91.44 109.22 0)
 			(effects
 				(font
@@ -1145,7 +1145,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6ef2397d-4877-42d6-936e-57d6cdeaf6b2")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR047"
 			(at 102.87 118.11 0)
 			(effects
 				(font
@@ -1195,7 +1195,7 @@
 		(instances
 			(project "sensor_1"
 				(path "/9fb1a86f-679c-4b88-9ed1-932f4f414580/543706d6-8cb0-4c51-81f6-888765ec3907/1dbad184-dd5f-4b28-bd02-77889e07b3d7"
-					(reference "#PWR046")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -1203,7 +1203,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 102.87 71.12 0)
+		(at 102.87 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1211,8 +1211,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "790bf69d-2add-421b-a392-560e30d3bfc9")
-		(property "Reference" "#PWR045"
-			(at 102.87 74.93 0)
+		(property "Reference" "#PWR046"
+			(at 102.87 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1221,7 +1221,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 102.87 66.04 0)
+			(at 102.87 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1229,7 +1229,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 102.87 71.12 0)
+			(at 102.87 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1238,7 +1238,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 71.12 0)
+			(at 102.87 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1247,7 +1247,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 102.87 71.12 0)
+			(at 102.87 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1261,7 +1261,7 @@
 		(instances
 			(project ""
 				(path "/9fb1a86f-679c-4b88-9ed1-932f4f414580/543706d6-8cb0-4c51-81f6-888765ec3907/1dbad184-dd5f-4b28-bd02-77889e07b3d7"
-					(reference "#PWR045")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -1277,7 +1277,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "91914150-c109-44fb-9f86-4423aed1ba04")
-		(property "Reference" "R9"
+		(property "Reference" "R10"
 			(at 64.77 93.98 90)
 			(effects
 				(font
@@ -1293,7 +1293,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 65.024 99.314 90)
 			(effects
 				(font
@@ -1329,7 +1329,7 @@
 		(instances
 			(project ""
 				(path "/9fb1a86f-679c-4b88-9ed1-932f4f414580/543706d6-8cb0-4c51-81f6-888765ec3907/1dbad184-dd5f-4b28-bd02-77889e07b3d7"
-					(reference "R9")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -1345,7 +1345,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e2ed8f10-a3d3-4296-a54e-550e2e49cdf0")
-		(property "Reference" "R10"
+		(property "Reference" "R11"
 			(at 81.28 93.98 90)
 			(effects
 				(font
@@ -1361,7 +1361,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 81.534 99.314 90)
 			(effects
 				(font
@@ -1397,7 +1397,7 @@
 		(instances
 			(project "sensor_1"
 				(path "/9fb1a86f-679c-4b88-9ed1-932f4f414580/543706d6-8cb0-4c51-81f6-888765ec3907/1dbad184-dd5f-4b28-bd02-77889e07b3d7"
-					(reference "R10")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -1412,8 +1412,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fed93bc7-0bed-4d04-ade6-ec565df4380f")
-		(property "Reference" "U9"
-			(at 121.92 89.916 0)
+		(property "Reference" "U8"
+			(at 123.444 89.916 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1421,7 +1421,7 @@
 			)
 		)
 		(property "Value" "OPAMP_5-pin_Generic"
-			(at 121.92 92.456 0)
+			(at 123.19 92.456 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1473,7 +1473,7 @@
 		(instances
 			(project ""
 				(path "/9fb1a86f-679c-4b88-9ed1-932f4f414580/543706d6-8cb0-4c51-81f6-888765ec3907/1dbad184-dd5f-4b28-bd02-77889e07b3d7"
-					(reference "U9")
+					(reference "U8")
 					(unit 1)
 				)
 			)
