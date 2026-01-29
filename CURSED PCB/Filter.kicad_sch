@@ -726,16 +726,16 @@
 		(uuid "e4476048-1243-42be-903c-98903afe6a1d")
 	)
 	(junction
+		(at 111.76 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "04071e7f-798c-4a35-89df-f2dad53c4982")
+	)
+	(junction
 		(at 111.76 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1492e21a-f1d9-42b6-ac6e-68ed166d03e8")
-	)
-	(junction
-		(at 96.52 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "aefef563-2705-4c29-aae6-7c880477745a")
 	)
 	(junction
 		(at 91.44 100.33)
@@ -748,6 +748,26 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fa6b88d2-7068-4a4f-b9cc-f879d9dcd3a2")
+	)
+	(wire
+		(pts
+			(xy 96.52 95.25) (xy 96.52 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "091f9fa7-141e-47e2-95ac-336ca99eb321")
+	)
+	(wire
+		(pts
+			(xy 96.52 86.36) (xy 111.76 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18cbf73b-fe3d-40a7-84b2-81f0940013ba")
 	)
 	(wire
 		(pts
@@ -771,23 +791,23 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 76.2) (xy 111.76 76.2)
+			(xy 111.76 86.36) (xy 111.76 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "668f8795-decf-45fa-8ce3-8cf4cd194f2c")
+	)
+	(wire
+		(pts
+			(xy 85.09 76.2) (xy 111.76 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6dd3898c-776c-4c99-a5b6-404d121dcd54")
-	)
-	(wire
-		(pts
-			(xy 85.09 76.2) (xy 96.52 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "74fc9c8d-a84b-4747-8601-9fb570509cc6")
 	)
 	(wire
 		(pts
@@ -821,7 +841,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 76.2) (xy 111.76 97.79)
+			(xy 111.76 76.2) (xy 111.76 86.36)
 		)
 		(stroke
 			(width 0)
@@ -858,16 +878,6 @@
 			(type default)
 		)
 		(uuid "b8c46693-4fc9-4df0-b878-cb0b3538cc1b")
-	)
-	(wire
-		(pts
-			(xy 96.52 76.2) (xy 96.52 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c899692c-322c-4695-9af0-ec607834c0f7")
 	)
 	(wire
 		(pts
@@ -1015,7 +1025,7 @@
 				)
 			)
 		)
-		(property "Value" "0.75n"
+		(property "Value" "1u"
 			(at 82.5563 72.39 90)
 			(effects
 				(font
@@ -1084,7 +1094,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "75p"
+		(property "Value" "1u"
 			(at 93.98 110.4962 0)
 			(effects
 				(font
@@ -1285,7 +1295,7 @@
 				)
 			)
 		)
-		(property "Value" "51kΩ"
+		(property "Value" "11.7k"
 			(at 64.77 96.52 90)
 			(effects
 				(font
@@ -1353,7 +1363,7 @@
 				)
 			)
 		)
-		(property "Value" "51kΩ"
+		(property "Value" "21k"
 			(at 81.28 96.52 90)
 			(effects
 				(font
