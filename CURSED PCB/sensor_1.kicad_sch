@@ -3404,6 +3404,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 71.12) (xy 80.01 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "820b62fc-e66f-44a5-a79f-67ad43e77d13")
+	)
+	(wire
+		(pts
 			(xy 64.77 156.21) (xy 110.49 156.21)
 		)
 		(stroke
@@ -3451,16 +3461,6 @@
 			(type default)
 		)
 		(uuid "8cb1e223-c93c-4674-ab71-429308b7bfee")
-	)
-	(wire
-		(pts
-			(xy 124.46 71.12) (xy 133.35 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f0cb9ae-9270-45da-9aae-03822f977c9b")
 	)
 	(wire
 		(pts
@@ -4083,7 +4083,7 @@
 		(uuid "6a9ef965-116d-4c96-98b3-10a7328cbc7a")
 	)
 	(label "SCLK"
-		(at 133.35 71.12 0)
+		(at 80.01 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
