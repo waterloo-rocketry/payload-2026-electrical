@@ -3109,7 +3109,7 @@
 				)
 			)
 		)
-		(property "Footprint" "canhw_footprints:TSSOP20_ST_MCH"
+		(property "Footprint" ""
 			(at 245.11 86.36 0)
 			(effects
 				(font
