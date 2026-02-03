@@ -431,7 +431,7 @@
       "pin_not_connected": "error",
       "pin_not_driven": "error",
       "pin_to_pin": "warning",
-      "power_pin_not_driven": "error",
+      "power_pin_not_driven": "ignore",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
@@ -769,6 +769,10 @@
     [
       "1dbad184-dd5f-4b28-bd02-77889e07b3d7",
       "anti-aliasing filter"
+    ],
+    [
+      "a884d289-6403-4974-bfe5-5c532984589b",
+      "Booster Converthing Thing thing"
     ]
   ],
   "text_variables": {}
