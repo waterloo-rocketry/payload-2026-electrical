@@ -4013,7 +4013,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 40.64) (xy 81.28 40.64)
+			(xy 68.58 40.64) (xy 81.28 40.64)
 		)
 		(stroke
 			(width 0)
@@ -4043,7 +4043,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 45.72) (xy 87.63 45.72)
+			(xy 68.58 45.72) (xy 87.63 45.72)
 		)
 		(stroke
 			(width 0)
@@ -4792,7 +4792,7 @@
 		(uuid "2b8d843b-8f81-4f7a-b608-44dac34826d2")
 	)
 	(label "MCLR"
-		(at 74.93 40.64 180)
+		(at 68.58 40.64 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4882,7 +4882,7 @@
 		(uuid "4760b24a-837d-4174-9d88-5eba7bb04833")
 	)
 	(label "IRQ{slash}MDAT"
-		(at 83.82 45.72 180)
+		(at 68.58 45.72 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7077,7 +7077,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x05_Socket"
+		(property "Value" "Programming Header"
 			(at 38.862 106.68 0)
 			(effects
 				(font

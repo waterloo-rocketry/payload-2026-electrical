@@ -2822,7 +2822,7 @@
 				)
 			)
 		)
-		(property "Value" "691137710002"
+		(property "Value" "2 Wire Block"
 			(at 41.91 74.93 90)
 			(effects
 				(font
@@ -3975,7 +3975,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x04_Socket"
+		(property "Value" "CAN Bus Connector"
 			(at 41.91 46.736 0)
 			(effects
 				(font

@@ -1390,7 +1390,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_Neosid_SM-NE127_HandSoldering"
 			(at 95.25 88.9 0)
 			(effects
 				(font
