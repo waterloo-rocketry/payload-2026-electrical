@@ -1719,7 +1719,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 92.71) (xy 265.43 92.71)
+			(xy 260.35 92.71) (xy 267.97 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1729,7 +1729,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 85.09) (xy 265.43 85.09)
+			(xy 260.35 85.09) (xy 267.97 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1789,7 +1789,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 82.55) (xy 265.43 82.55)
+			(xy 260.35 82.55) (xy 267.97 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1889,7 +1889,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 80.01) (xy 265.43 80.01)
+			(xy 260.35 80.01) (xy 267.97 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2019,7 +2019,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 90.17) (xy 265.43 90.17)
+			(xy 260.35 90.17) (xy 267.97 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2119,7 +2119,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 87.63) (xy 265.43 87.63)
+			(xy 260.35 87.63) (xy 267.97 87.63)
 		)
 		(stroke
 			(width 0)
@@ -2127,71 +2127,71 @@
 		)
 		(uuid "fb44af6b-14d8-40c5-9ca9-1c4266908135")
 	)
-	(hierarchical_label "MKLKIN"
+	(hierarchical_label "SCLK"
 		(shape input)
-		(at 265.43 80.01 0)
+		(at 267.97 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "1b5e2aa8-448a-4c49-ace8-f2d28257e7e2")
-	)
-	(hierarchical_label "CS"
-		(shape input)
-		(at 265.43 92.71 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "953f468d-c3ce-41c9-bbd2-96966a0a5711")
+		(uuid "2f2de739-52d1-4a95-922c-40c706038808")
 	)
 	(hierarchical_label "SDO"
 		(shape input)
-		(at 265.43 85.09 0)
+		(at 267.97 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "d21221d2-a376-4f8a-954f-ae2b237ce569")
+		(uuid "57175684-3668-498c-b633-8d06746dd1f4")
 	)
 	(hierarchical_label "SDI"
 		(shape input)
-		(at 265.43 87.63 0)
+		(at 267.97 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "d21221d2-a376-4f8a-954f-ae2b237ce56a")
+		(uuid "8ee70a02-553e-47ed-8967-71910e64d6d3")
 	)
-	(hierarchical_label "SCLK"
+	(hierarchical_label "MKLKIN"
 		(shape input)
-		(at 265.43 90.17 0)
+		(at 267.97 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "d21221d2-a376-4f8a-954f-ae2b237ce56b")
+		(uuid "c663002a-36e2-46ff-9546-21237a9f7f3d")
 	)
 	(hierarchical_label "IRQ{slash}MDAT"
 		(shape input)
-		(at 265.43 82.55 0)
+		(at 267.97 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "d21221d2-a376-4f8a-954f-ae2b237ce56c")
+		(uuid "d8b65078-45da-4d30-8c66-228c2c468924")
+	)
+	(hierarchical_label "CS"
+		(shape input)
+		(at 267.97 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ea0da571-889e-40d5-bd05-1979dd57d48f")
 	)
 	(symbol
 		(lib_id "Device:C_Small")
@@ -3109,7 +3109,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm"
 			(at 245.11 86.36 0)
 			(effects
 				(font

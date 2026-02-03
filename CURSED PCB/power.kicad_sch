@@ -2582,7 +2582,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 74.93) (xy 111.76 74.93)
+			(xy 105.41 74.93) (xy 114.3 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2650,16 +2650,16 @@
 		)
 		(uuid "ea3020a5-98bd-4570-9a70-590c4455a8bf")
 	)
-	(hierarchical_label "CUR_SENSE"
-		(shape input)
-		(at 111.76 74.93 0)
+	(hierarchical_label "CUR_SEN"
+		(shape output)
+		(at 114.3 74.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "0a846516-ecc6-4883-95cf-994696ed3696")
+		(uuid "60b16e6b-7261-4a2d-ace9-dfff5bc34296")
 	)
 	(hierarchical_label "CANL"
 		(shape output)
