@@ -1031,6 +1031,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "24V"
+		(exclude_from_sim no)
+		(at 152.908 100.584 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2cf7dc01-d0bf-4987-8629-fd369e5bc315")
+	)
 	(junction
 		(at 81.28 101.6)
 		(diameter 0)
@@ -1653,7 +1663,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "434d7bc7-8b38-475c-93e4-5a27da77f10f")
-		(property "Reference" "R13"
+		(property "Reference" "R12"
 			(at 123.19 121.9199 0)
 			(effects
 				(font
@@ -1707,7 +1717,7 @@
 		(instances
 			(project "sensor_1"
 				(path "/9fb1a86f-679c-4b88-9ed1-932f4f414580/a884d289-6403-4974-bfe5-5c532984589b"
-					(reference "R13")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -1925,7 +1935,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e666680f-06d5-4a2c-9692-c8356237f8bf")
-		(property "Reference" "R14"
+		(property "Reference" "R13"
 			(at 123.19 109.2199 0)
 			(effects
 				(font
@@ -1979,7 +1989,7 @@
 		(instances
 			(project "sensor_1"
 				(path "/9fb1a86f-679c-4b88-9ed1-932f4f414580/a884d289-6403-4974-bfe5-5c532984589b"
-					(reference "R14")
+					(reference "R13")
 					(unit 1)
 				)
 			)
