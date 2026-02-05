@@ -433,6 +433,171 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:Conn_01x02_Socket"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02_Socket"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_Socket_1_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -0.508 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -0.508)
+					(mid -0.5058 0)
+					(end 0 0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -3.048)
+					(mid -0.5058 -2.54)
+					(end 0 -2.032)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Conn_01x05_Socket"
 			(pin_names
 				(offset 1.016)
@@ -2004,211 +2169,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_BJT:PZTA42"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "PZTA42"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-				(at 5.08 -1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/PZTA42T1-D.PDF"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "0.5A Ic, 300V Vce, NPN High Voltage Transistor, SOT-223"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "NPN High Voltage Transistor SMD"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT?223*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "PZTA42_0_1"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy 0.635 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.27 0)
-					(radius 2.8194)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "PZTA42_1_1"
-				(polyline
-					(pts
-						(xy 0.635 0.635) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -0.635) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "E"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "canhw:MCP2562"
 			(pin_names
 				(offset 1.016)
@@ -3516,20 +3476,8 @@
 		(uuid "e4d90d86-b3cc-46ae-9453-834b95516f25")
 	)
 	(no_connect
-		(at 151.13 147.32)
-		(uuid "e9c82dbb-f8d0-4231-b4bc-e512d7571b80")
-	)
-	(no_connect
-		(at 124.46 53.34)
-		(uuid "ea54d464-0ed2-4f36-a9cb-f8a97dec60f6")
-	)
-	(no_connect
 		(at 62.23 154.94)
 		(uuid "fbbd428b-894f-46d8-abb6-259eb77f0592")
-	)
-	(no_connect
-		(at 151.13 137.16)
-		(uuid "fc71a540-631d-4765-8805-12c4f317fdf2")
 	)
 	(wire
 		(pts
@@ -3763,6 +3711,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 144.78) (xy 143.51 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "335eb199-5a6c-47e4-a18e-436f2d5ed634")
+	)
+	(wire
+		(pts
 			(xy 25.4 27.94) (xy 24.13 27.94)
 		)
 		(stroke
@@ -3840,6 +3798,16 @@
 			(type default)
 		)
 		(uuid "4689e7de-ffef-47e7-9ed0-3d3212b7856e")
+	)
+	(wire
+		(pts
+			(xy 124.46 53.34) (xy 139.7 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46ad7e4a-7807-45b7-924a-3984cd9d14cd")
 	)
 	(wire
 		(pts
@@ -3970,6 +3938,16 @@
 			(type default)
 		)
 		(uuid "65448b2b-285c-491f-9e5a-dd3c989bd81f")
+	)
+	(wire
+		(pts
+			(xy 232.41 76.2) (xy 236.22 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65f71e28-fd98-4014-8f67-848b0e2e053e")
 	)
 	(wire
 		(pts
@@ -4991,6 +4969,16 @@
 		)
 		(uuid "6d6a0d16-6ee3-45cb-882a-faf5310edd43")
 	)
+	(label "Las_enable"
+		(at 232.41 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "78e6a843-8d7a-4875-b46c-4741ee879ee5")
+	)
 	(label "MOSI"
 		(at 139.7 55.88 0)
 		(effects
@@ -5020,6 +5008,16 @@
 			(justify right bottom)
 		)
 		(uuid "9ea2c180-451f-496f-b994-a8593bc0fdca")
+	)
+	(label "Las_enable"
+		(at 139.7 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9f22df04-dd80-426c-ae97-03727dc7d9f2")
 	)
 	(label "CS2"
 		(at 16.51 157.48 0)
@@ -5826,7 +5824,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "27 MHzCrystal"
+		(property "Value" "12 MHzCrystal"
 			(at 188.976 144.018 90)
 			(effects
 				(font
@@ -6590,6 +6588,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 143.51 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f2f3853-0949-4ecb-8cdb-189cd3d4cb04")
+		(property "Reference" "#PWR052"
+			(at 143.51 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 143.51 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 143.51 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3940866b-8b0b-4cd0-8be7-763c41a553e5")
+		)
+		(instances
+			(project ""
+				(path "/9fb1a86f-679c-4b88-9ed1-932f4f414580"
+					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 236.22 152.4 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7335,6 +7399,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 148.59 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b8099351-eee8-4410-9c26-0a600771bfc3")
+		(property "Reference" "J4"
+			(at 149.86 142.2399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PZT connector"
+			(at 149.86 144.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 148.59 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 148.59 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "94269bed-00a2-4411-b4a9-082e29c36726")
+		)
+		(pin "1"
+			(uuid "5f25afaf-fc99-456d-93a3-7fb2acd0e63e")
+		)
+		(instances
+			(project ""
+				(path "/9fb1a86f-679c-4b88-9ed1-932f4f414580"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 212.09 73.66 90)
 		(unit 1)
@@ -7951,82 +8085,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:PZTA42")
-		(at 148.59 142.24 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eb8d9c55-a558-47af-b8bd-ae228a9f042c")
-		(property "Reference" "Q1"
-			(at 153.67 140.9699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PZTA42"
-			(at 153.67 143.5099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-			(at 153.67 144.145 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/PZTA42T1-D.PDF"
-			(at 148.59 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.5A Ic, 300V Vce, NPN High Voltage Transistor, SOT-223"
-			(at 148.59 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "41321523-7d54-4153-afcd-cec548fb1f5f")
-		)
-		(pin "1"
-			(uuid "7e5fae82-2292-4d36-befb-6eb7eb4a75c2")
-		)
-		(pin "2"
-			(uuid "e8a9a2c4-8661-4e0c-8be8-7e28e2022100")
-		)
-		(instances
-			(project ""
-				(path "/9fb1a86f-679c-4b88-9ed1-932f4f414580"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3VA")
 		(at 63.5 101.6 0)
 		(unit 1)
@@ -8590,6 +8648,16 @@
 		(pin "CANH" output
 			(at 236.22 86.36 180)
 			(uuid "5b43c359-481b-4e78-81d7-47baba20ff41")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Las_enable" input
+			(at 236.22 76.2 180)
+			(uuid "a3587887-3dbd-46d3-9267-e23344dcc8fc")
 			(effects
 				(font
 					(size 1.27 1.27)
