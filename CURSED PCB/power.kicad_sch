@@ -3424,7 +3424,7 @@
 				)
 			)
 		)
-		(property "Value" "2A"
+		(property "Value" "1A"
 			(at 53.34 53.34 90)
 			(effects
 				(font
@@ -4019,7 +4019,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b45f9b7-59a0-41c8-a194-04d2d912fadb")
-		(property "Reference" "U?"
+		(property "Reference" "U1"
 			(at 46.99 99.06 0)
 			(effects
 				(font
@@ -4083,7 +4083,7 @@
 		(instances
 			(project ""
 				(path "/9fb1a86f-679c-4b88-9ed1-932f4f414580/78e664bb-f661-4ad0-951c-8ffe0c2483d0"
-					(reference "U?")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -5548,7 +5548,7 @@
 				)
 			)
 		)
-		(property "Footprint" "canhw_footprints:HARWIN_G125-MH104M4-04AD000P"
+		(property "Footprint" "canhw_footprints:connector_Harwin_G125-MH104M4-04AD000P"
 			(at 26.67 48.26 0)
 			(effects
 				(font

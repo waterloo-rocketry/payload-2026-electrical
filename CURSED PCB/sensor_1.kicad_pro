@@ -763,16 +763,16 @@
       "Power"
     ],
     [
-      "543706d6-8cb0-4c51-81f6-888765ec3907",
-      "Amplifer"
+      "a884d289-6403-4974-bfe5-5c532984589b",
+      "Booster Converthing Thing thing"
     ],
     [
       "1dbad184-dd5f-4b28-bd02-77889e07b3d7",
       "anti-aliasing filter"
     ],
     [
-      "a884d289-6403-4974-bfe5-5c532984589b",
-      "Booster Converthing Thing thing"
+      "543706d6-8cb0-4c51-81f6-888765ec3907",
+      "Amplifer"
     ]
   ],
   "text_variables": {}
