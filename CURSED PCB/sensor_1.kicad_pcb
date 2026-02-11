@@ -2113,7 +2113,7 @@
 				)
 			)
 		)
-		(property "Value" "330R"
+		(property "Value" "22R"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "60789492-4a1f-4cc2-91c2-329023033bda")
@@ -4582,7 +4582,7 @@
 			(roundrect_rratio 0.125)
 			(net 58 "unconnected-(U3-PA11-Pad21)")
 			(pinfunction "PA11")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(solder_mask_margin 0.102)
 			(uuid "1562a5e0-5e6b-46f7-a424-ae39e76f367f")
 		)
@@ -4593,7 +4593,7 @@
 			(roundrect_rratio 0.125)
 			(net 60 "unconnected-(U3-PA12-Pad22)")
 			(pinfunction "PA12")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(solder_mask_margin 0.102)
 			(uuid "7f8bb8b5-aafa-4f38-b03d-5c4b7bf44733")
 		)
@@ -15394,17 +15394,6 @@
 		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "ae2198e9-de3c-4c69-998b-a9e041cdb0c4")
-	)
-	(gr_rect
-		(start 29.4 26.6)
-		(end 79.4 76.6)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(fill no)
-		(layer "User.3")
-		(uuid "0e8895a6-0d3b-4a77-9b74-1f24d3714cfe")
 	)
 	(dimension
 		(type orthogonal)
