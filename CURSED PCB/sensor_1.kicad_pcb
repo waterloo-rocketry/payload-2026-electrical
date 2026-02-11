@@ -12927,7 +12927,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "OPAMP_5-pin_Generic"
+		(property "Value" "LTC2066"
 			(at 0 -2.4 0)
 			(layer "B.Fab")
 			(uuid "09f96536-c897-4544-9ab5-dbda80c150bb")

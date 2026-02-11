@@ -1430,7 +1430,7 @@
 				)
 			)
 		)
-		(property "Value" "OPAMP_5-pin_Generic"
+		(property "Value" "LTC2066"
 			(at 123.19 92.456 0)
 			(effects
 				(font
