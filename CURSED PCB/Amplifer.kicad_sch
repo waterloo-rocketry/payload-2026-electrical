@@ -1561,18 +1561,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Amplifer Ref:\nhttps://www.ti.com/lit/an/sboa220b/sboa220b.pdf?ts=1747595142490\n\nPhotodode ref: \nhttps://www.ti.com/lit/ug/tiduaz1/tiduaz1.pdf\n\nLeft to do:\nAdd amount for capactiors and resistiors\n\nMaybe add anti-analising filter after the amplifier output?"
-		(exclude_from_sim no)
-		(at 13.716 115.062 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-			(href "#3")
-		)
-		(uuid "ea362621-5664-4d7c-a4b3-136d3d1ef5a6")
-	)
 	(junction
 		(at 134.62 107.95)
 		(diameter 0)
@@ -2684,7 +2672,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BPW34"
+		(property "Value" "ODD-5WISOL"
 			(at 96.52 93.0528 90)
 			(effects
 				(font
