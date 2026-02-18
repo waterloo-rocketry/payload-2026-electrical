@@ -1395,7 +1395,7 @@
 				)
 			)
 		)
-		(property "Value" "22R"
+		(property "Value" "220R"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "7b389511-440a-4601-87e4-fa632fda6924")
@@ -3904,7 +3904,7 @@
 			(roundrect_rratio 0.125)
 			(net 59 "unconnected-(U3-PA8-Pad18)")
 			(pinfunction "PA8")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(solder_mask_margin 0.102)
 			(uuid "0607971f-14cd-491f-8f93-b06fb41fa970")
 		)
@@ -3948,7 +3948,7 @@
 			(roundrect_rratio 0.125)
 			(net 60 "unconnected-(U3-PA12-Pad22)")
 			(pinfunction "PA12")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(solder_mask_margin 0.102)
 			(uuid "96175461-b65a-4f8b-b982-55ec5a0ec320")
 		)
@@ -4949,7 +4949,7 @@
 				)
 			)
 		)
-		(property "Value" "165m"
+		(property "Value" "198m"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "d625f6ed-c7c4-4d4a-9b61-6e03796c788a")
@@ -6705,7 +6705,7 @@
 				)
 			)
 		)
-		(property "Value" "22R"
+		(property "Value" "220R"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "4c302380-44b0-4dc1-b03b-05d9819e4035")
@@ -7536,7 +7536,7 @@
 				)
 			)
 		)
-		(property "Value" "1A"
+		(property "Value" "1.5A"
 			(at 2.55 3.1 0)
 			(layer "F.Fab")
 			(uuid "b1b7bb15-5672-4c1f-b32e-868553382d89")
@@ -8308,7 +8308,7 @@
 				)
 			)
 		)
-		(property "Value" "22R"
+		(property "Value" "220R"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "04e109f0-5ce1-4708-9183-d84732c7a9f9")
@@ -10581,7 +10581,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "22R"
+		(property "Value" "10k"
 			(at 0 -1.43 0)
 			(layer "B.Fab")
 			(uuid "29f68b30-66e7-4f1a-8d73-af2653ab0da3")
@@ -13202,7 +13202,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "24Hz crystal"
+		(property "Value" "24MHz crystal"
 			(at -0.2 -3.35 180)
 			(layer "B.Fab")
 			(hide yes)
@@ -14717,7 +14717,7 @@
 		(at 65.2698 61.2 180)
 		(tags "MLF1608E120JTD25 ")
 		(property "Reference" "L1"
-			(at -23.7 1.6 0)
+			(at 1.6698 1.6 0)
 			(unlocked yes)
 			(layer "B.SilkS")
 			(uuid "33a3162b-eeb4-41cf-b58a-4a4da86de64e")
@@ -15058,7 +15058,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "22R"
+		(property "Value" "10k"
 			(at 0 -1.43 0)
 			(layer "B.Fab")
 			(uuid "c3015273-d2ae-4ae5-8022-6be1d7d4e029")
@@ -16079,7 +16079,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "22R"
+		(property "Value" "10k"
 			(at 0 -1.43 0)
 			(layer "B.Fab")
 			(uuid "1148d036-d295-4fd6-b417-2a9060e13545")
@@ -19945,22 +19945,6 @@
 		(layer "In1.Cu")
 		(net 10)
 		(uuid "e5a350bf-64b9-4a59-9111-abae6ede8869")
-	)
-	(segment
-		(start 32.9 46.96)
-		(end 34.8 45.06)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 11)
-		(uuid "7ce1bf9d-a72d-4092-88a6-435dcc44d292")
-	)
-	(segment
-		(start 34.8 45.06)
-		(end 34.8 44.5)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 11)
-		(uuid "e7a4fd63-763e-4dd6-88ea-16a0419c95ae")
 	)
 	(segment
 		(start 37.0625 42.7625)
