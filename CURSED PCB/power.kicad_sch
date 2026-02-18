@@ -3474,7 +3474,7 @@
 				)
 			)
 		)
-		(property "Value" "1A"
+		(property "Value" "1.5A"
 			(at 53.34 53.34 90)
 			(effects
 				(font
@@ -5320,7 +5320,7 @@
 				)
 			)
 		)
-		(property "Value" "165m"
+		(property "Value" "198m"
 			(at 83.82 53.34 90)
 			(effects
 				(font
