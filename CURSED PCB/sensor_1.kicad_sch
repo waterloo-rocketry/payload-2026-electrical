@@ -3918,6 +3918,14 @@
 		(uuid "797b2e65-dc9b-402c-b6bd-c3193ddbf8a6")
 	)
 	(no_connect
+		(at 85.09 69.85)
+		(uuid "953d323b-901a-46f9-8bff-23a8f296daf8")
+	)
+	(no_connect
+		(at 85.09 59.69)
+		(uuid "978b65d0-9e70-4fc9-bb74-f04da5f92f33")
+	)
+	(no_connect
 		(at 138.43 91.44)
 		(uuid "97c93b0f-f929-4e1d-9b55-cd3bbe25b41d")
 	)
@@ -6033,7 +6041,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22R"
+		(property "Value" "10k"
 			(at 27.94 157.4799 0)
 			(effects
 				(font
@@ -6103,7 +6111,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22R"
+		(property "Value" "220R"
 			(at 49.53 39.3699 0)
 			(effects
 				(font
@@ -6241,7 +6249,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22R"
+		(property "Value" "220R"
 			(at 33.02 43.1799 0)
 			(effects
 				(font
@@ -6850,7 +6858,7 @@
 				)
 			)
 		)
-		(property "Value" "24Hz crystal"
+		(property "Value" "24MHz crystal"
 			(at 218.44 138.3598 90)
 			(effects
 				(font
@@ -7420,7 +7428,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22R"
+		(property "Value" "10k"
 			(at 46.99 173.9899 0)
 			(effects
 				(font
@@ -7490,7 +7498,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22R"
+		(property "Value" "220R"
 			(at 17.78 44.4499 0)
 			(effects
 				(font
@@ -9351,7 +9359,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22R"
+		(property "Value" "10k"
 			(at 17.78 154.9399 0)
 			(effects
 				(font
