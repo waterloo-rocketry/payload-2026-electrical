@@ -2492,6 +2492,12 @@
 		(uuid "df18086d-c19c-48c7-b6a5-a83fbcdcc817")
 	)
 	(junction
+		(at 80.01 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e031706f-f961-4929-95ce-4115641a312a")
+	)
+	(junction
 		(at 198.12 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3027,6 +3033,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 116.84) (xy 90.17 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3f23b32-e895-47f6-b66f-72a849af9713")
+	)
+	(wire
+		(pts
 			(xy 105.41 74.93) (xy 114.3 74.93)
 		)
 		(stroke
@@ -3037,7 +3053,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 116.84) (xy 90.17 116.84)
+			(xy 68.58 116.84) (xy 80.01 116.84)
 		)
 		(stroke
 			(width 0)
@@ -3104,16 +3120,6 @@
 			(type default)
 		)
 		(uuid "eb7123d9-d0f9-48a8-acb7-b7b2baefaeb0")
-	)
-	(wire
-		(pts
-			(xy 80.01 114.3) (xy 80.01 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec059319-09ea-4125-94d3-c76c009f97e4")
 	)
 	(wire
 		(pts
@@ -3198,7 +3204,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "AGND"
+		(property "Value" "GND"
 			(at 187.96 100.3299 0)
 			(effects
 				(font
@@ -3522,7 +3528,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 80.01 111.76 0)
+		(at 80.01 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -3531,15 +3537,6 @@
 		(fields_autoplaced yes)
 		(uuid "1a8cb9ea-8581-47f3-b68d-f15b1a556bb4")
 		(property "Reference" "H2"
-			(at 82.55 109.2199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MH2"
 			(at 82.55 111.7599 0)
 			(effects
 				(font
@@ -3548,8 +3545,17 @@
 				(justify left)
 			)
 		)
+		(property "Value" "MH2"
+			(at 82.55 114.2999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
-			(at 80.01 111.76 0)
+			(at 80.01 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3558,7 +3564,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 80.01 111.76 0)
+			(at 80.01 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3567,7 +3573,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 80.01 111.76 0)
+			(at 80.01 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3606,7 +3612,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "AGND"
+		(property "Value" "GND"
 			(at 200.66 100.3299 0)
 			(effects
 				(font
@@ -3649,72 +3655,6 @@
 			(project "sensor_1"
 				(path "/9fb1a86f-679c-4b88-9ed1-932f4f414580/78e664bb-f661-4ad0-951c-8ffe0c2483d0"
 					(reference "#PWR030")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 80.01 121.92 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "25809755-07ca-4768-82a9-cbf1fd1ecf96")
-		(property "Reference" "#PWR01"
-			(at 80.01 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "AGND"
-			(at 80.01 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 80.01 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 80.01 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 80.01 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d69245fc-fc88-4d6e-9543-510efa0af105")
-		)
-		(instances
-			(project "sensor_1"
-				(path "/9fb1a86f-679c-4b88-9ed1-932f4f414580/78e664bb-f661-4ad0-951c-8ffe0c2483d0"
-					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -5038,7 +4978,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "AGND"
+		(property "Value" "GND"
 			(at 222.25 100.3299 0)
 			(effects
 				(font
@@ -6009,7 +5949,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "AGND"
+		(property "Value" "GND"
 			(at 167.64 100.3299 0)
 			(effects
 				(font

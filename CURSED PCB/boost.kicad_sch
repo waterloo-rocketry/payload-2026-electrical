@@ -1606,12 +1606,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "AGND"
-			(at 95.25 133.35 0)
+		(property "Value" "GND"
+			(at 97.79 129.5399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -1812,7 +1813,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "AGND"
+		(property "Value" "GND"
 			(at 66.04 114.2999 0)
 			(effects
 				(font
