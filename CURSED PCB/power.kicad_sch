@@ -2474,12 +2474,6 @@
 		(uuid "b5f05530-e03d-402b-8782-f4a107be1628")
 	)
 	(junction
-		(at 80.01 116.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c0843402-7004-4dc3-9487-63bb4f67b7d9")
-	)
-	(junction
 		(at 153.67 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2893,16 +2887,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 116.84) (xy 80.01 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4cc9859-15ae-4377-b1e3-8dd90d30036e")
-	)
-	(wire
-		(pts
 			(xy 153.67 88.9) (xy 165.1 88.9)
 		)
 		(stroke
@@ -3053,7 +3037,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 116.84) (xy 90.17 116.84)
+			(xy 68.58 116.84) (xy 90.17 116.84)
 		)
 		(stroke
 			(width 0)
@@ -3120,6 +3104,16 @@
 			(type default)
 		)
 		(uuid "eb7123d9-d0f9-48a8-acb7-b7b2baefaeb0")
+	)
+	(wire
+		(pts
+			(xy 80.01 114.3) (xy 80.01 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec059319-09ea-4125-94d3-c76c009f97e4")
 	)
 	(wire
 		(pts
@@ -3204,12 +3198,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 185.42 104.14 0)
+		(property "Value" "AGND"
+			(at 187.96 100.3299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -3527,7 +3522,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 80.01 114.3 0)
+		(at 80.01 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -3536,7 +3531,7 @@
 		(fields_autoplaced yes)
 		(uuid "1a8cb9ea-8581-47f3-b68d-f15b1a556bb4")
 		(property "Reference" "H2"
-			(at 82.55 111.7599 0)
+			(at 82.55 109.2199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3545,7 +3540,7 @@
 			)
 		)
 		(property "Value" "MH2"
-			(at 82.55 114.2999 0)
+			(at 82.55 111.7599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3553,8 +3548,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
-			(at 80.01 114.3 0)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+			(at 80.01 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3563,7 +3558,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 80.01 114.3 0)
+			(at 80.01 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3572,7 +3567,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 80.01 114.3 0)
+			(at 80.01 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3611,12 +3606,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 198.12 104.14 0)
+		(property "Value" "AGND"
+			(at 200.66 100.3299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -3653,6 +3649,72 @@
 			(project "sensor_1"
 				(path "/9fb1a86f-679c-4b88-9ed1-932f4f414580/78e664bb-f661-4ad0-951c-8ffe0c2483d0"
 					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 80.01 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "25809755-07ca-4768-82a9-cbf1fd1ecf96")
+		(property "Reference" "#PWR01"
+			(at 80.01 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AGND"
+			(at 80.01 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 80.01 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d69245fc-fc88-4d6e-9543-510efa0af105")
+		)
+		(instances
+			(project "sensor_1"
+				(path "/9fb1a86f-679c-4b88-9ed1-932f4f414580/78e664bb-f661-4ad0-951c-8ffe0c2483d0"
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -4232,7 +4294,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
 			(at 208.28 54.61 0)
 			(effects
 				(font
@@ -4299,7 +4361,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
 			(at 90.17 114.3 0)
 			(effects
 				(font
@@ -4433,7 +4495,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 201.6252 68.58 0)
 			(effects
 				(font
@@ -4503,7 +4565,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 166.0652 96.52 0)
 			(effects
 				(font
@@ -4573,7 +4635,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
 			(at 101.6 114.3 0)
 			(effects
 				(font
@@ -4639,7 +4701,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
 			(at 210.82 88.9 0)
 			(effects
 				(font
@@ -4705,7 +4767,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
 			(at 104.14 57.15 0)
 			(effects
 				(font
@@ -4772,7 +4834,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 166.0652 62.23 0)
 			(effects
 				(font
@@ -4976,12 +5038,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 219.71 104.14 0)
+		(property "Value" "AGND"
+			(at 222.25 100.3299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -5260,7 +5323,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 215.5952 66.04 0)
 			(effects
 				(font
@@ -5328,7 +5391,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 84.074 56.134 90)
 			(effects
 				(font
@@ -5530,7 +5593,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 220.6752 96.52 0)
 			(effects
 				(font
@@ -5752,7 +5815,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
 			(at 68.58 114.3 0)
 			(effects
 				(font
@@ -5819,7 +5882,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 199.0852 96.52 0)
 			(effects
 				(font
@@ -5946,12 +6009,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 165.1 104.14 0)
+		(property "Value" "AGND"
+			(at 167.64 100.3299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
