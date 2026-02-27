@@ -1041,6 +1041,16 @@
 		)
 		(uuid "2cf7dc01-d0bf-4987-8629-fd369e5bc315")
 	)
+	(text "Name: TPS61046YFFR\nidk why its not updating"
+		(exclude_from_sim no)
+		(at 120.396 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "efd91877-bd12-4d11-8625-209b7731c1b1")
+	)
 	(junction
 		(at 81.28 101.6)
 		(diameter 0)
@@ -1520,7 +1530,7 @@
 				)
 			)
 		)
-		(property "Value" "TPS61046YFF"
+		(property "Value" "TPS61046YFFR"
 			(at 95.25 97.79 0)
 			(effects
 				(font
@@ -1549,6 +1559,15 @@
 			)
 		)
 		(property "Description" "Boost Converter, 0.7-5.5V Input Voltage, 1A Switch Current, Fixed 3.6V Output Voltage, WSON-6"
+			(at 95.25 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "TPS61046YFFR"
 			(at 95.25 106.68 0)
 			(effects
 				(font

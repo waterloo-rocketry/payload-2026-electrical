@@ -3475,7 +3475,7 @@
 				)
 			)
 		)
-		(property "Value" "1.5A"
+		(property "Value" "600mA"
 			(at 53.34 53.34 90)
 			(effects
 				(font
