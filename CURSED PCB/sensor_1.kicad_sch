@@ -4041,7 +4041,7 @@
 		(uuid "3d97405a-2f84-49d5-bf1c-a3028e470927")
 	)
 	(junction
-		(at 146.05 34.29)
+		(at 146.05 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "496eae29-3c7b-42be-b203-5034a516efb3")
@@ -4600,6 +4600,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 27.94) (xy 149.86 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37d14683-df23-4c49-9a5e-90a0a7a9471d")
+	)
+	(wire
+		(pts
 			(xy 143.51 121.92) (xy 166.37 121.92)
 		)
 		(stroke
@@ -4877,6 +4887,26 @@
 			(type default)
 		)
 		(uuid "662faa1b-9cbd-40f5-8a0f-eedb71be0b1a")
+	)
+	(wire
+		(pts
+			(xy 143.51 27.94) (xy 143.51 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "680432f4-d4c3-483f-ad95-b2f32e0bcc14")
+	)
+	(wire
+		(pts
+			(xy 149.86 26.67) (xy 143.51 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "687374ae-5f13-4aef-94ff-4ba2bc3ca3ab")
 	)
 	(wire
 		(pts
@@ -5310,7 +5340,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 34.29) (xy 146.05 34.29)
+			(xy 143.51 35.56) (xy 146.05 35.56)
 		)
 		(stroke
 			(width 0)
@@ -5410,7 +5440,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 34.29) (xy 149.86 34.29)
+			(xy 146.05 35.56) (xy 149.86 35.56)
 		)
 		(stroke
 			(width 0)
@@ -5447,16 +5477,6 @@
 			(type default)
 		)
 		(uuid "c3602983-4341-43d8-815d-8f5c886e7eda")
-	)
-	(wire
-		(pts
-			(xy 143.51 26.67) (xy 149.86 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c56974ce-9538-4cb2-94e0-32c1ed3e767f")
 	)
 	(wire
 		(pts
@@ -5710,7 +5730,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 34.29) (xy 146.05 36.83)
+			(xy 146.05 35.56) (xy 146.05 38.1)
 		)
 		(stroke
 			(width 0)
@@ -6559,10 +6579,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "157b0885-3e96-43af-bfef-dbf9d456c119")
 		(property "Reference" "C29"
-			(at 162.56 26.6699 0)
+			(at 157.226 20.066 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6571,7 +6590,7 @@
 			)
 		)
 		(property "Value" "0.1µF"
-			(at 162.56 29.2099 0)
+			(at 157.226 22.606 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7738,7 +7757,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 146.05 36.83 0)
+		(at 146.05 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7746,7 +7765,7 @@
 		(dnp no)
 		(uuid "6268a6c6-997b-4735-910f-5615658c0ece")
 		(property "Reference" "#PWR012"
-			(at 146.05 43.18 0)
+			(at 146.05 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7755,7 +7774,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 146.0501 40.64 90)
+			(at 146.0501 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7764,7 +7783,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 146.05 36.83 0)
+			(at 146.05 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7773,7 +7792,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 36.83 0)
+			(at 146.05 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7782,7 +7801,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 146.05 36.83 0)
+			(at 146.05 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8420,7 +8439,7 @@
 	)
 	(symbol
 		(lib_id "PCM_Capacitor_US_AKL:C_0201")
-		(at 149.86 30.48 180)
+		(at 149.86 31.75 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8428,7 +8447,7 @@
 		(dnp no)
 		(uuid "7fdfb8b7-ce6d-4806-aa57-eec9ea85b11b")
 		(property "Reference" "C7"
-			(at 152.908 29.21 0)
+			(at 152.908 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8437,7 +8456,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 152.908 31.75 0)
+			(at 152.908 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8446,7 +8465,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 148.8948 26.67 0)
+			(at 148.8948 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8455,7 +8474,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 149.86 30.48 0)
+			(at 149.86 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8464,7 +8483,7 @@
 			)
 		)
 		(property "Description" "SMD 0201 MLCC capacitor, Alternate KiCad Library"
-			(at 149.86 30.48 0)
+			(at 149.86 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9101,7 +9120,7 @@
 	)
 	(symbol
 		(lib_id "PCM_Capacitor_US_AKL:C_0201")
-		(at 143.51 30.48 0)
+		(at 143.51 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9109,7 +9128,7 @@
 		(dnp no)
 		(uuid "9c3e53a9-e90b-4b3b-8e3f-409e9d32a8a0")
 		(property "Reference" "C28"
-			(at 136.398 29.464 0)
+			(at 136.398 30.734 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9118,7 +9137,7 @@
 			)
 		)
 		(property "Value" "0.1µF"
-			(at 136.398 32.004 0)
+			(at 136.398 33.274 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9127,7 +9146,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 144.4752 34.29 0)
+			(at 144.4752 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9136,7 +9155,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 143.51 30.48 0)
+			(at 143.51 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9145,7 +9164,7 @@
 			)
 		)
 		(property "Description" "SMD 0201 MLCC capacitor, Alternate KiCad Library"
-			(at 143.51 30.48 0)
+			(at 143.51 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
