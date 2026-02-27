@@ -3993,6 +3993,12 @@
 		(uuid "05f01f6d-cec2-4522-9c31-f69226d9fbac")
 	)
 	(junction
+		(at 144.78 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "089ba7df-79eb-4ed4-b88c-6a0c388763a7")
+	)
+	(junction
 		(at 30.48 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4003,6 +4009,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0e7ebc16-25c9-40a9-9fbf-210775cd1d31")
+	)
+	(junction
+		(at 171.45 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "18564595-55b4-4eb7-9570-f4dbdbaacb6c")
 	)
 	(junction
 		(at 64.77 57.15)
@@ -4017,16 +4029,22 @@
 		(uuid "2572b7ad-d5ea-4d1a-817b-32e406cdeadb")
 	)
 	(junction
+		(at 142.24 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "325a8f33-18ce-45a2-9aed-f62c746ac933")
+	)
+	(junction
 		(at 60.96 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3d97405a-2f84-49d5-bf1c-a3028e470927")
 	)
 	(junction
-		(at 135.89 26.67)
+		(at 146.05 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "494604ac-edda-48dc-be4c-32cd1b14595b")
+		(uuid "496eae29-3c7b-42be-b203-5034a516efb3")
 	)
 	(junction
 		(at 25.4 140.97)
@@ -4035,10 +4053,28 @@
 		(uuid "5951ea8b-4480-466e-a415-8221e0dbef07")
 	)
 	(junction
+		(at 166.37 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5dd2b281-c69f-4d1c-a00f-ceb49857f640")
+	)
+	(junction
 		(at 133.35 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6df66279-d92d-47b4-b0a7-a9dc0ce3a1ff")
+	)
+	(junction
+		(at 168.91 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6fdffdf5-6865-4092-bd8c-c16808bb52ba")
+	)
+	(junction
+		(at 162.56 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8c6c5f12-d515-4357-ac35-5635da155c29")
 	)
 	(junction
 		(at 76.2 57.15)
@@ -4065,6 +4101,12 @@
 		(uuid "b200f511-d939-44cc-9cd5-8a989775b59b")
 	)
 	(junction
+		(at 137.16 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b5fe25cf-0c79-49bf-ae5e-0009ae05d5af")
+	)
+	(junction
 		(at 207.01 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4083,10 +4125,28 @@
 		(uuid "c075b423-f298-4c01-87af-c588a8d2189d")
 	)
 	(junction
+		(at 158.75 24.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ca3ead10-ab85-4572-9772-98578edddebf")
+	)
+	(junction
 		(at 118.11 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ce591b35-c918-4ac1-b906-a4a02c61ff5e")
+	)
+	(junction
+		(at 143.51 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d43d04d7-2274-426c-ae0b-9845ad90dada")
+	)
+	(junction
+		(at 148.59 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "db8f0a16-596f-4fee-be2e-1b705e17f833")
 	)
 	(junction
 		(at 15.24 25.4)
@@ -4240,16 +4300,6 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 26.67) (xy 158.75 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04bef711-d46e-4650-bfb2-6cfdfdbb489d")
-	)
-	(wire
-		(pts
 			(xy 68.58 41.91) (xy 85.09 41.91)
 		)
 		(stroke
@@ -4270,13 +4320,23 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 35.56) (xy 158.75 26.67)
+			(xy 171.45 133.35) (xy 168.91 133.35)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "08a78eb6-cf18-43ca-9d8b-8515679cd61b")
+		(uuid "08c3a8f6-5e6f-4c09-9463-a59eac81ed26")
+	)
+	(wire
+		(pts
+			(xy 162.56 31.75) (xy 166.37 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0900a8c5-5b24-4ebe-80d3-423a69474fe9")
 	)
 	(wire
 		(pts
@@ -4380,16 +4440,6 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 121.92) (xy 140.97 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2244547c-60ba-498c-9baa-4046e00e28e4")
-	)
-	(wire
-		(pts
 			(xy 78.74 54.61) (xy 85.09 54.61)
 		)
 		(stroke
@@ -4460,7 +4510,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 21.59) (xy 135.89 26.67)
+			(xy 137.16 22.86) (xy 137.16 26.67)
 		)
 		(stroke
 			(width 0)
@@ -4490,13 +4540,13 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 24.13) (xy 171.45 24.13)
+			(xy 142.24 130.81) (xy 142.24 133.35)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2c77a43b-d09b-43c3-b051-14b42818d558")
+		(uuid "2e08993d-173d-407b-aa00-6cd9d513b7af")
 	)
 	(wire
 		(pts
@@ -4560,7 +4610,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 121.92) (xy 152.4 121.92)
+			(xy 143.51 121.92) (xy 166.37 121.92)
 		)
 		(stroke
 			(width 0)
@@ -4640,6 +4690,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 121.92) (xy 171.45 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47b0f50e-eb58-4d71-8b23-2adbf7532714")
+	)
+	(wire
+		(pts
 			(xy 30.48 25.4) (xy 30.48 29.21)
 		)
 		(stroke
@@ -4660,26 +4720,6 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 119.38) (xy 168.91 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c1f8d28-67de-409b-857b-160a16ac051d")
-	)
-	(wire
-		(pts
-			(xy 171.45 31.75) (xy 171.45 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c4f4edb-788d-4734-b0b9-a0fa579a913d")
-	)
-	(wire
-		(pts
 			(xy 49.53 146.05) (xy 52.07 146.05)
 		)
 		(stroke
@@ -4690,6 +4730,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 130.81) (xy 148.59 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d4bcead-9a33-4165-85a0-434170196afd")
+	)
+	(wire
+		(pts
 			(xy 198.12 142.24) (xy 198.12 147.32)
 		)
 		(stroke
@@ -4697,6 +4747,16 @@
 			(type default)
 		)
 		(uuid "4f74f7ed-4e30-4fe9-b333-13ad1d19ef2d")
+	)
+	(wire
+		(pts
+			(xy 171.45 121.92) (xy 175.26 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ff1ad88-eba6-4329-b4cc-ce9c935c76b3")
 	)
 	(wire
 		(pts
@@ -4727,6 +4787,26 @@
 			(type default)
 		)
 		(uuid "5517e108-c9e1-46a6-9c52-8d8b256f597b")
+	)
+	(wire
+		(pts
+			(xy 148.59 133.35) (xy 144.78 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56a2545a-d8c9-4cec-9f85-fbfa2b11f23a")
+	)
+	(wire
+		(pts
+			(xy 171.45 129.54) (xy 171.45 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56e2b8c4-4858-4512-8b36-b43f8603ec9d")
 	)
 	(wire
 		(pts
@@ -4777,6 +4857,16 @@
 			(type default)
 		)
 		(uuid "639cd1ad-7637-46de-8450-d94ec1bc3797")
+	)
+	(wire
+		(pts
+			(xy 158.75 31.75) (xy 162.56 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64e7bf66-56e1-4c92-a14c-0abbc544f296")
 	)
 	(wire
 		(pts
@@ -4840,7 +4930,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 24.13) (xy 160.02 24.13)
+			(xy 142.24 24.13) (xy 158.75 24.13)
 		)
 		(stroke
 			(width 0)
@@ -4880,6 +4970,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 24.13) (xy 166.37 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79d4f734-5ded-4b6e-bffd-17d86503505d")
+	)
+	(wire
+		(pts
 			(xy 229.87 132.08) (xy 237.49 132.08)
 		)
 		(stroke
@@ -4887,6 +4987,16 @@
 			(type default)
 		)
 		(uuid "7a448a84-0c39-40cc-bd4f-15e540525e47")
+	)
+	(wire
+		(pts
+			(xy 162.56 31.75) (xy 162.56 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c393054-1dc5-41d4-b434-798cf7625bce")
 	)
 	(wire
 		(pts
@@ -4900,7 +5010,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 123.19) (xy 163.83 123.19)
+			(xy 138.43 123.19) (xy 142.24 123.19)
 		)
 		(stroke
 			(width 0)
@@ -5100,6 +5210,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 123.19) (xy 163.83 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f179086-9c10-4632-930e-923dcb9de65b")
+	)
+	(wire
+		(pts
 			(xy 12.7 157.48) (xy 17.78 157.48)
 		)
 		(stroke
@@ -5107,6 +5227,16 @@
 			(type default)
 		)
 		(uuid "9f2df6db-484e-49ae-8918-7eaca8cdf932")
+	)
+	(wire
+		(pts
+			(xy 166.37 129.54) (xy 166.37 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f89dfef-6e55-4d71-bbd9-a583256411bf")
 	)
 	(wire
 		(pts
@@ -5190,6 +5320,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 34.29) (xy 146.05 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a81b12ef-0467-4e58-8bc2-d93968eba1c6")
+	)
+	(wire
+		(pts
 			(xy 212.09 142.24) (xy 217.17 142.24)
 		)
 		(stroke
@@ -5200,6 +5340,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 124.46) (xy 140.97 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab87b7ac-8b2b-4cbe-939b-b6c3b77f36d8")
+	)
+	(wire
+		(pts
 			(xy 85.09 46.99) (xy 15.24 46.99)
 		)
 		(stroke
@@ -5207,16 +5357,6 @@
 			(type default)
 		)
 		(uuid "ac5fa9ec-8ed9-4268-bb75-d73d302e9227")
-	)
-	(wire
-		(pts
-			(xy 140.97 129.54) (xy 168.91 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "afacb7bc-4f3e-496f-8737-dc119793ef25")
 	)
 	(wire
 		(pts
@@ -5237,16 +5377,6 @@
 			(type default)
 		)
 		(uuid "b6a3982e-64fb-4157-858d-22e88885ffa8")
-	)
-	(wire
-		(pts
-			(xy 135.89 26.67) (xy 144.78 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6f3c49a-6e21-4e04-bb91-4e498373bf25")
 	)
 	(wire
 		(pts
@@ -5290,6 +5420,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 34.29) (xy 149.86 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd88fbe9-1dbf-496b-9ec9-c1090ae3134b")
+	)
+	(wire
+		(pts
 			(xy 17.78 140.97) (xy 17.78 146.05)
 		)
 		(stroke
@@ -5317,6 +5457,16 @@
 			(type default)
 		)
 		(uuid "c3602983-4341-43d8-815d-8f5c886e7eda")
+	)
+	(wire
+		(pts
+			(xy 143.51 26.67) (xy 149.86 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c56974ce-9538-4cb2-94e0-32c1ed3e767f")
 	)
 	(wire
 		(pts
@@ -5360,6 +5510,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 26.67) (xy 143.51 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca709303-560d-41c0-9583-12daa0619444")
+	)
+	(wire
+		(pts
 			(xy 55.88 39.37) (xy 85.09 39.37)
 		)
 		(stroke
@@ -5390,7 +5550,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 26.67) (xy 135.89 26.67)
+			(xy 125.73 26.67) (xy 137.16 26.67)
 		)
 		(stroke
 			(width 0)
@@ -5457,6 +5617,26 @@
 			(type default)
 		)
 		(uuid "d611c56e-f436-419b-a1b0-93bca5368a62")
+	)
+	(wire
+		(pts
+			(xy 186.69 119.38) (xy 186.69 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d61af87b-fa11-481c-a469-04cba54ea366")
+	)
+	(wire
+		(pts
+			(xy 140.97 124.46) (xy 186.69 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6bad7bd-e994-4665-8421-2b727e0d5e55")
 	)
 	(wire
 		(pts
@@ -5560,6 +5740,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 34.29) (xy 146.05 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efe0224b-7161-4be0-9734-90ac2390d4a4")
+	)
+	(wire
+		(pts
 			(xy 76.2 88.9) (xy 125.73 88.9)
 		)
 		(stroke
@@ -5620,6 +5810,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 133.35) (xy 168.91 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f59c5648-ffef-4290-9b42-d6bf8548e206")
+	)
+	(wire
+		(pts
 			(xy 17.78 157.48) (xy 62.23 157.48)
 		)
 		(stroke
@@ -5677,6 +5877,26 @@
 			(type default)
 		)
 		(uuid "fd3af36a-ccce-417e-a5bd-be30263c3008")
+	)
+	(wire
+		(pts
+			(xy 142.24 123.19) (xy 148.59 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdff21e6-7d4a-4f50-9a00-2daec5b66c6c")
+	)
+	(wire
+		(pts
+			(xy 142.24 133.35) (xy 144.78 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe718c7d-a2b2-446f-b102-5c68e94b5554")
 	)
 	(wire
 		(pts
@@ -5809,7 +6029,7 @@
 		(uuid "44516000-42e3-45b6-9569-ad89f7afb3eb")
 	)
 	(label "V_AMP_OUT"
-		(at 152.4 121.92 0)
+		(at 175.26 121.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6179,7 +6399,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/20005167C.pdf"
 			(at 199.39 83.82 0)
 			(effects
 				(font
@@ -6356,6 +6576,76 @@
 			(project "sensor_1"
 				(path "/9fb1a86f-679c-4b88-9ed1-932f4f414580"
 					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Capacitor_US_AKL:C_0201")
+		(at 158.75 27.94 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "157b0885-3e96-43af-bfef-dbf9d456c119")
+		(property "Reference" "C29"
+			(at 162.56 26.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0.1µF"
+			(at 162.56 29.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 157.7848 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0201 MLCC capacitor, Alternate KiCad Library"
+			(at 158.75 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4c53cab0-c847-461c-bb91-d8af77cee55c")
+		)
+		(pin "1"
+			(uuid "313a3804-59c0-42b0-b3a3-af6e1d40d09f")
+		)
+		(instances
+			(project "sensor_1"
+				(path "/9fb1a86f-679c-4b88-9ed1-932f4f414580"
+					(reference "C29")
 					(unit 1)
 				)
 			)
@@ -6772,7 +7062,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3VA")
-		(at 135.89 21.59 0)
+		(at 137.16 22.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6780,7 +7070,7 @@
 		(dnp no)
 		(uuid "22e7a51f-a840-4fdc-9043-f2ffd603c307")
 		(property "Reference" "#PWR058"
-			(at 135.89 25.4 0)
+			(at 137.16 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6789,7 +7079,7 @@
 			)
 		)
 		(property "Value" "+3.3VA"
-			(at 135.89 16.51 0)
+			(at 137.16 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6797,7 +7087,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 135.89 21.59 0)
+			(at 137.16 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6806,7 +7096,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 21.59 0)
+			(at 137.16 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6815,7 +7105,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
-			(at 135.89 21.59 0)
+			(at 137.16 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7037,7 +7327,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3VA")
-		(at 168.91 119.38 0)
+		(at 186.69 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7045,7 +7335,7 @@
 		(dnp no)
 		(uuid "3dbe528c-4cde-43a9-a4e0-cb48ed7cb903")
 		(property "Reference" "#PWR051"
-			(at 168.91 123.19 0)
+			(at 186.69 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7054,7 +7344,7 @@
 			)
 		)
 		(property "Value" "+3.3VA"
-			(at 168.91 114.3 0)
+			(at 186.69 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7062,7 +7352,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 168.91 119.38 0)
+			(at 186.69 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7071,7 +7361,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 168.91 119.38 0)
+			(at 186.69 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7080,7 +7370,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
-			(at 168.91 119.38 0)
+			(at 186.69 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7127,7 +7417,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 15.24 33.02 0)
 			(effects
 				(font
@@ -7173,6 +7463,141 @@
 			(project "sensor_1"
 				(path "/9fb1a86f-679c-4b88-9ed1-932f4f414580"
 					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 168.91 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "470cc5a4-f7c5-4e68-8e93-0617d1a08aed")
+		(property "Reference" "#PWR06"
+			(at 168.91 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 168.91 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 168.91 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f80dee40-2dfe-4ccc-825b-0370af2f3748")
+		)
+		(instances
+			(project "sensor_1"
+				(path "/9fb1a86f-679c-4b88-9ed1-932f4f414580"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Capacitor_US_AKL:C_0201")
+		(at 142.24 127 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4cd92774-f19d-4599-8d56-b2133e1ae256")
+		(property "Reference" "C24"
+			(at 136.398 125.222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10uF"
+			(at 135.636 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 141.2748 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 142.24 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0201 MLCC capacitor, Alternate KiCad Library"
+			(at 142.24 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "95d0c3c0-cb21-4b83-84a5-531716cf6afd")
+		)
+		(pin "1"
+			(uuid "926681c0-a4aa-4038-b924-842be40338c2")
+		)
+		(instances
+			(project "sensor_1"
+				(path "/9fb1a86f-679c-4b88-9ed1-932f4f414580"
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -7343,7 +7768,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 158.75 35.56 0)
+		(at 146.05 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7351,7 +7776,7 @@
 		(dnp no)
 		(uuid "6268a6c6-997b-4735-910f-5615658c0ece")
 		(property "Reference" "#PWR012"
-			(at 158.75 41.91 0)
+			(at 146.05 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7360,7 +7785,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 158.7501 39.37 90)
+			(at 146.0501 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7369,7 +7794,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 158.75 35.56 0)
+			(at 146.05 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7378,7 +7803,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 35.56 0)
+			(at 146.05 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7387,7 +7812,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 158.75 35.56 0)
+			(at 146.05 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7409,32 +7834,33 @@
 	)
 	(symbol
 		(lib_id "PCM_Capacitor_US_AKL:C_0201")
-		(at 163.83 24.13 90)
+		(at 166.37 125.73 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6663b0de-b375-49e5-8994-0ecde1adaaeb")
-		(property "Reference" "C2"
-			(at 163.83 16.51 90)
+		(uuid "64929e02-1390-4250-b40b-b7060026e5e7")
+		(property "Reference" "C26"
+			(at 160.02 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "0.1µF"
-			(at 163.83 19.05 90)
+		(property "Value" "10uF"
+			(at 159.766 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 167.64 23.1648 0)
+			(at 165.4048 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7443,7 +7869,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 163.83 24.13 0)
+			(at 166.37 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7452,7 +7878,77 @@
 			)
 		)
 		(property "Description" "SMD 0201 MLCC capacitor, Alternate KiCad Library"
-			(at 163.83 24.13 0)
+			(at 166.37 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8a9a0eec-86fd-448b-873c-4afdfb80a810")
+		)
+		(pin "1"
+			(uuid "af288418-75ae-4cde-9f57-beae01a9fea6")
+		)
+		(instances
+			(project "sensor_1"
+				(path "/9fb1a86f-679c-4b88-9ed1-932f4f414580"
+					(reference "C26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Capacitor_US_AKL:C_0201")
+		(at 166.37 27.94 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6663b0de-b375-49e5-8994-0ecde1adaaeb")
+		(property "Reference" "C2"
+			(at 170.18 26.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10uF"
+			(at 170.18 29.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 165.4048 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0201 MLCC capacitor, Alternate KiCad Library"
+			(at 166.37 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7954,32 +8450,33 @@
 	)
 	(symbol
 		(lib_id "PCM_Capacitor_US_AKL:C_0201")
-		(at 148.59 26.67 90)
+		(at 149.86 30.48 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7fdfb8b7-ce6d-4806-aa57-eec9ea85b11b")
 		(property "Reference" "C7"
-			(at 148.59 19.05 90)
+			(at 152.908 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "0.1µF"
-			(at 148.59 21.59 90)
+		(property "Value" "1uF"
+			(at 152.908 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 152.4 25.7048 0)
+			(at 148.8948 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7988,7 +8485,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 148.59 26.67 0)
+			(at 149.86 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7997,7 +8494,7 @@
 			)
 		)
 		(property "Description" "SMD 0201 MLCC capacitor, Alternate KiCad Library"
-			(at 148.59 26.67 0)
+			(at 149.86 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8088,7 +8585,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 171.45 31.75 0)
+		(at 162.56 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8096,7 +8593,7 @@
 		(dnp no)
 		(uuid "87d2eaf3-af08-48a9-b587-dfe1d5053688")
 		(property "Reference" "#PWR059"
-			(at 171.45 38.1 0)
+			(at 162.56 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8105,7 +8602,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 171.4501 35.56 90)
+			(at 162.5601 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8114,7 +8611,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 171.45 31.75 0)
+			(at 162.56 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8123,7 +8620,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.45 31.75 0)
+			(at 162.56 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8132,7 +8629,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 171.45 31.75 0)
+			(at 162.56 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8179,7 +8676,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 46.99 29.21 0)
 			(effects
 				(font
@@ -8435,6 +8932,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 144.78 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9042ca3b-c7c8-46bb-94b5-41c09f427820")
+		(property "Reference" "#PWR01"
+			(at 144.78 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 144.78 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 144.78 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6f386a95-93bb-441a-b897-688caa5e4d28")
+		)
+		(instances
+			(project "sensor_1"
+				(path "/9fb1a86f-679c-4b88-9ed1-932f4f414580"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 175.26 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8561,6 +9124,75 @@
 			(project ""
 				(path "/9fb1a86f-679c-4b88-9ed1-932f4f414580"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Capacitor_US_AKL:C_0201")
+		(at 143.51 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9c3e53a9-e90b-4b3b-8e3f-409e9d32a8a0")
+		(property "Reference" "C28"
+			(at 136.398 29.464 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1µF"
+			(at 136.398 32.004 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 144.4752 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 143.51 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0201 MLCC capacitor, Alternate KiCad Library"
+			(at 143.51 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b501d803-03ef-488a-abac-dc7d7c318e0f")
+		)
+		(pin "1"
+			(uuid "7c1bf9de-550f-40fd-8d02-8532c8d04b54")
+		)
+		(instances
+			(project "sensor_1"
+				(path "/9fb1a86f-679c-4b88-9ed1-932f4f414580"
+					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -8696,6 +9328,76 @@
 			(project "sensor_1"
 				(path "/9fb1a86f-679c-4b88-9ed1-932f4f414580"
 					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Capacitor_US_AKL:C_0201")
+		(at 148.59 127 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ab526926-a543-4bbc-81a0-6c70762495d3")
+		(property "Reference" "C25"
+			(at 152.4 125.7299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10uF"
+			(at 152.4 128.2699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 147.6248 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 148.59 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0201 MLCC capacitor, Alternate KiCad Library"
+			(at 148.59 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5a324f58-9382-485e-9f73-eebe462d71af")
+		)
+		(pin "1"
+			(uuid "26d94064-1069-4a89-b69f-3ba4edb93576")
+		)
+		(instances
+			(project "sensor_1"
+				(path "/9fb1a86f-679c-4b88-9ed1-932f4f414580"
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -9592,6 +10294,76 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_Capacitor_US_AKL:C_0201")
+		(at 171.45 125.73 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e2db218e-be09-49a7-b20d-b3c9e05ae5d5")
+		(property "Reference" "C27"
+			(at 175.26 124.4599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10uF"
+			(at 175.26 126.9999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 170.4848 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 171.45 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0201 MLCC capacitor, Alternate KiCad Library"
+			(at 171.45 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3d02d585-090f-47ec-85f0-d5935c75fe1a")
+		)
+		(pin "1"
+			(uuid "8da49bbc-fe8a-4713-8d42-b906412c4192")
+		)
+		(instances
+			(project "sensor_1"
+				(path "/9fb1a86f-679c-4b88-9ed1-932f4f414580"
+					(reference "C27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 30.48 33.02 90)
 		(unit 1)
@@ -9618,7 +10390,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 30.48 33.02 0)
 			(effects
 				(font
