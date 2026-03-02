@@ -12784,7 +12784,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "3.48M"
+		(property "Value" "2.76M"
 			(at 0 -1.65 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -23199,6 +23199,22 @@
 		(layer "F.Cu")
 		(net 20)
 		(uuid "385f4d0c-2e34-4702-bff7-7519f846ac17")
+	)
+	(segment
+		(start 42.6 48.4)
+		(end 42.6 49)
+		(width 0.381)
+		(layer "F.Cu")
+		(net 20)
+		(uuid "3fc52e14-6290-4776-8f4e-b0cb7ada7a97")
+	)
+	(segment
+		(start 42.6 49)
+		(end 43.2 49.6)
+		(width 0.381)
+		(layer "F.Cu")
+		(net 20)
+		(uuid "4caaa17a-c59d-4f3f-a924-78b9419361e3")
 	)
 	(segment
 		(start 42.08 51.1)
