@@ -4639,15 +4639,15 @@
 		(fields_autoplaced yes)
 		(uuid "acd9dc60-864a-44e4-9276-5ea6c24d7ed7")
 		(property "Reference" "U2"
-			(at 107.95 68.5098 0)
+			(at 109.22 68.5098 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "INA180"
-			(at 107.95 71.0498 0)
+		(property "Value" "INA180-A3"
+			(at 109.22 71.0498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4939,7 +4939,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.exar.com/content/document.ashx?id=22106&languageid=1033&type=Datasheet&partnumber=SPX3819&filename=SPX3819.pdf&part=SPX3819"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6642/1016_SPX3819.pdf"
 			(at 185.42 57.15 0)
 			(effects
 				(font
@@ -5711,7 +5711,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.exar.com/content/document.ashx?id=22106&languageid=1033&type=Datasheet&partnumber=SPX3819&filename=SPX3819.pdf&part=SPX3819"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6642/1016_SPX3819.pdf"
 			(at 185.42 91.44 0)
 			(effects
 				(font

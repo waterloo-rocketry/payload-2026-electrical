@@ -3657,7 +3657,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/MCP3561-2-4-Two-Four-Eight-Channel-153.6-ksps-Low-Noise-24-Bit-Delta-Sigma-ADCs-DS20006181B.pdf"
 			(at 245.11 86.36 0)
 			(effects
 				(font
