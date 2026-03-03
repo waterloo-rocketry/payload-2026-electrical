@@ -1580,6 +1580,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Math is done on a google sheets labbeled \"Experimental & PCB Data Setup Master\" under Transimpedance Amplifer\n"
+		(exclude_from_sim no)
+		(at 146.304 130.556 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cf0fce27-6ac4-4f31-918a-0acd2daacf7d")
+	)
 	(junction
 		(at 134.62 107.95)
 		(diameter 0)
@@ -2395,7 +2405,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "3245nF"
 			(at 154.9463 120.65 90)
 			(effects
 				(font
@@ -2870,7 +2880,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "0.1u"
 			(at 127 76.1935 0)
 			(effects
 				(font
