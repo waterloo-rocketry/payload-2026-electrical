@@ -1592,143 +1592,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Regulator_Linear:MCP1754S-3302xCB"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -3.81 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MCP1754S-3302xCB"
-				(at -0.635 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-				(at 0 5.715 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/20002276C.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Fixed 150mA Low Dropout Voltage Regulator, Positive, 3.3V output, SOT-23"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Regulator LDO"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT?23*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MCP1754S-3302xCB_0_1"
-				(rectangle
-					(start -5.08 -5.08)
-					(end 5.08 1.905)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "MCP1754S-3302xCB_1_1"
-				(pin power_in line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "VI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "VO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Regulator_Linear:SPX3819M5-L-3-3"
 			(pin_names
 				(offset 0.254)
@@ -2425,9 +2288,19 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "100 Gain\n"
+	(text "R_shunt = (VOUT / GAIN)/ Current\n\nVOUT = 3.3\nGain = 100\nCurrent = 1A\nR_shunt = 33 mohm"
 		(exclude_from_sim no)
-		(at 103.886 78.232 0)
+		(at 65.786 43.688 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2fa9fe5f-7084-46f7-a2ab-e12f78423496")
+	)
+	(text "100 V/V Gain or 40dB\n\n\n"
+		(exclude_from_sim no)
+		(at 114.046 83.058 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2444,6 +2317,12 @@
 			)
 		)
 		(uuid "b26c2058-1821-4856-b7f8-a822af6bb1a3")
+	)
+	(junction
+		(at 176.53 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "20471028-3b9c-4bd1-8bac-71a30242f732")
 	)
 	(junction
 		(at 214.63 54.61)
@@ -2516,12 +2395,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e031706f-f961-4929-95ce-4115641a312a")
-	)
-	(junction
-		(at 198.12 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e2945aec-c992-484f-9566-5237c89e9395")
 	)
 	(junction
 		(at 203.2 54.61)
@@ -2603,7 +2476,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 88.9) (xy 177.8 88.9)
+			(xy 165.1 88.9) (xy 176.53 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2623,6 +2496,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 91.44) (xy 176.53 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20f4bdab-73bb-420d-ba41-6c005b679706")
+	)
+	(wire
+		(pts
 			(xy 87.63 57.15) (xy 88.9 57.15)
 		)
 		(stroke
@@ -2633,23 +2516,13 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 88.9) (xy 205.74 88.9)
+			(xy 193.04 88.9) (xy 205.74 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2511934d-a96d-4817-90ea-b3035a4e7db6")
-	)
-	(wire
-		(pts
-			(xy 185.42 96.52) (xy 185.42 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29d28020-2d86-43a5-a738-a2ea81093430")
 	)
 	(wire
 		(pts
@@ -2763,6 +2636,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 91.44) (xy 176.53 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67b7e346-9ef3-4226-8797-b2df47871914")
+	)
+	(wire
+		(pts
 			(xy 95.25 82.55) (xy 95.25 87.63)
 		)
 		(stroke
@@ -2783,7 +2666,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 96.52) (xy 198.12 99.06)
+			(xy 198.12 99.06) (xy 198.12 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2893,6 +2776,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 88.9) (xy 177.8 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1534792-5336-4aed-a5f5-9129856c58bc")
+	)
+	(wire
+		(pts
 			(xy 45.72 86.36) (xy 54.61 86.36)
 		)
 		(stroke
@@ -2913,16 +2806,6 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 88.9) (xy 198.12 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af98c97e-2f0a-4e84-8a48-3efbc8e8e880")
-	)
-	(wire
-		(pts
 			(xy 68.58 116.84) (xy 68.58 121.92)
 		)
 		(stroke
@@ -2940,6 +2823,16 @@
 			(type default)
 		)
 		(uuid "ba542fec-e550-4576-8a8e-7169a67295c0")
+	)
+	(wire
+		(pts
+			(xy 185.42 99.06) (xy 185.42 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdde0895-8015-4547-b7b1-927d808fb69e")
 	)
 	(wire
 		(pts
@@ -2970,6 +2863,16 @@
 			(type default)
 		)
 		(uuid "c459da42-0386-4535-8842-17a8a453a5da")
+	)
+	(wire
+		(pts
+			(xy 193.04 91.44) (xy 198.12 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc94e1b6-5afd-4c82-a67b-64294f0e9f6c")
 	)
 	(wire
 		(pts
@@ -3167,7 +3070,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 185.42 99.06 0)
+		(at 185.42 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3176,7 +3079,7 @@
 		(fields_autoplaced yes)
 		(uuid "05289c2c-81c7-49aa-a31d-27bcae3096c9")
 		(property "Reference" "#PWR029"
-			(at 185.42 105.41 0)
+			(at 185.42 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3185,7 +3088,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 187.96 100.3299 0)
+			(at 187.96 106.6799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3194,7 +3097,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 185.42 99.06 0)
+			(at 185.42 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3203,7 +3106,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 99.06 0)
+			(at 185.42 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3212,7 +3115,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 185.42 99.06 0)
+			(at 185.42 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3455,7 +3358,7 @@
 				)
 			)
 		)
-		(property "Value" "600mA"
+		(property "Value" "1A"
 			(at 53.34 53.34 90)
 			(effects
 				(font
@@ -3575,7 +3478,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 198.12 99.06 0)
+		(at 198.12 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3584,7 +3487,7 @@
 		(fields_autoplaced yes)
 		(uuid "1ade5ba8-5477-4cd6-b66d-2a72f5359664")
 		(property "Reference" "#PWR030"
-			(at 198.12 105.41 0)
+			(at 198.12 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3593,7 +3496,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 200.66 100.3299 0)
+			(at 200.66 102.8699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3602,7 +3505,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 198.12 99.06 0)
+			(at 198.12 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3611,7 +3514,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 99.06 0)
+			(at 198.12 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3620,7 +3523,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 198.12 99.06 0)
+			(at 198.12 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3899,77 +3802,6 @@
 			(project ""
 				(path "/9fb1a86f-679c-4b88-9ed1-932f4f414580/78e664bb-f661-4ad0-951c-8ffe0c2483d0"
 					(reference "#PWR037")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Regulator_Linear:MCP1754S-3302xCB")
-		(at 185.42 88.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "51c2a197-fbbc-4c70-9af9-b593ac1fc3c2")
-		(property "Reference" "U5"
-			(at 185.42 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MCP1754S-3302xCB"
-			(at 185.42 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 185.42 83.185 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/20002276C.pdf"
-			(at 185.42 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Fixed 150mA Low Dropout Voltage Regulator, Positive, 3.3V output, SOT-23"
-			(at 185.42 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "07a50c1c-0a54-4ec6-a773-d411fb3f6927")
-		)
-		(pin "3"
-			(uuid "9ff31b64-fc23-4013-92e6-99bb5249fb32")
-		)
-		(pin "1"
-			(uuid "c03b4f7b-85b2-4a32-b6f5-a5d7cd80f0d6")
-		)
-		(instances
-			(project ""
-				(path "/9fb1a86f-679c-4b88-9ed1-932f4f414580/78e664bb-f661-4ad0-951c-8ffe0c2483d0"
-					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -5303,7 +5135,7 @@
 				)
 			)
 		)
-		(property "Value" "55m"
+		(property "Value" "33m"
 			(at 83.82 53.34 90)
 			(effects
 				(font
@@ -5504,7 +5336,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "1uF"
 			(at 223.52 93.9799 0)
 			(effects
 				(font
@@ -5776,7 +5608,7 @@
 	)
 	(symbol
 		(lib_id "PCM_Capacitor_US_AKL:C_0201")
-		(at 198.12 92.71 0)
+		(at 198.12 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5785,15 +5617,6 @@
 		(fields_autoplaced yes)
 		(uuid "ee70372d-bb89-4ff4-ade3-43fb6185a582")
 		(property "Reference" "C10"
-			(at 201.93 91.4399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uF"
 			(at 201.93 93.9799 0)
 			(effects
 				(font
@@ -5802,8 +5625,17 @@
 				(justify left)
 			)
 		)
+		(property "Value" "10nF"
+			(at 201.93 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 199.0852 96.52 0)
+			(at 199.0852 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5812,7 +5644,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 198.12 92.71 0)
+			(at 198.12 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5821,7 +5653,7 @@
 			)
 		)
 		(property "Description" "SMD 0201 MLCC capacitor, Alternate KiCad Library"
-			(at 198.12 92.71 0)
+			(at 198.12 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5839,6 +5671,83 @@
 			(project "sensor_1"
 				(path "/9fb1a86f-679c-4b88-9ed1-932f4f414580/78e664bb-f661-4ad0-951c-8ffe0c2483d0"
 					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:SPX3819M5-L-3-3")
+		(at 185.42 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f628be77-ad52-4600-b945-342e56b3ebd0")
+		(property "Reference" "U5"
+			(at 185.42 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SPX3819M5-L-3-3"
+			(at 185.42 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 185.42 83.185 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.exar.com/content/document.ashx?id=22106&languageid=1033&type=Datasheet&partnumber=SPX3819&filename=SPX3819.pdf&part=SPX3819"
+			(at 185.42 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "500mA Low drop-out regulator, Fixed Output 3.3V, SOT-23-5"
+			(at 185.42 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "e24868f6-9d99-4dfa-a4c5-e708e47be040")
+		)
+		(pin "2"
+			(uuid "cf5d5c41-c4be-44cf-a39f-4d2e201276d6")
+		)
+		(pin "1"
+			(uuid "5cec844f-e957-449d-9915-0b222bd1f166")
+		)
+		(pin "5"
+			(uuid "7f544d62-7488-418c-96bb-1cae3e6c3fe0")
+		)
+		(pin "4"
+			(uuid "3e442006-6397-4b07-8cf0-8ceedb6b5989")
+		)
+		(instances
+			(project "sensor_1"
+				(path "/9fb1a86f-679c-4b88-9ed1-932f4f414580/78e664bb-f661-4ad0-951c-8ffe0c2483d0"
+					(reference "U5")
 					(unit 1)
 				)
 			)
