@@ -1024,7 +1024,7 @@
 				)
 			)
 		)
-		(property "Value" "1n"
+		(property "Value" "47nF"
 			(at 82.5563 72.39 90)
 			(effects
 				(font
@@ -1093,7 +1093,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "430pF"
+		(property "Value" "20nF"
 			(at 93.98 110.4962 0)
 			(effects
 				(font
@@ -1294,7 +1294,7 @@
 				)
 			)
 		)
-		(property "Value" "46.7k"
+		(property "Value" "986"
 			(at 64.77 96.52 90)
 			(effects
 				(font
@@ -1362,7 +1362,7 @@
 				)
 			)
 		)
-		(property "Value" "103k"
+		(property "Value" "2.23k"
 			(at 81.28 96.52 90)
 			(effects
 				(font
@@ -1429,7 +1429,7 @@
 				)
 			)
 		)
-		(property "Value" "LT6023"
+		(property "Value" "LT6233"
 			(at 123.19 92.456 0)
 			(effects
 				(font

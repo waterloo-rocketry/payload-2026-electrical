@@ -3436,7 +3436,7 @@
 				)
 			)
 		)
-		(property "Value" "1n"
+		(property "Value" "47nF"
 			(at 0 1.68 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4424,7 +4424,7 @@
 				)
 			)
 		)
-		(property "Value" "3245nF"
+		(property "Value" "3200nF"
 			(at 0 1.68 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5631,7 +5631,7 @@
 				)
 			)
 		)
-		(property "Value" "103k"
+		(property "Value" "2.23k"
 			(at 0 1.65 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8137,7 +8137,7 @@
 				)
 			)
 		)
-		(property "Value" "430pF"
+		(property "Value" "20nF"
 			(at 0 1.68 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -8936,7 +8936,7 @@
 				)
 			)
 		)
-		(property "Value" "LT6023"
+		(property "Value" "LT6233"
 			(at 0 2.4 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12154,7 +12154,7 @@
 				)
 			)
 		)
-		(property "Value" "46.7k"
+		(property "Value" "986"
 			(at 0 1.65 0)
 			(layer "F.Fab")
 			(hide yes)
