@@ -714,7 +714,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Math is done on a google sheets labbeled \"Experimental & PCB Data Setup Master\" under AA Filter\n"
+	(text "Math is done on a google sheets labbeled \"Experimental & PCB Data Setup Master\" under AA Filter\nGoogle sheet is found under payload 2026 under data magnement "
 		(exclude_from_sim no)
 		(at 94.996 127 0)
 		(effects
@@ -723,17 +723,6 @@
 			)
 		)
 		(uuid "04882d8f-3e47-4e5e-8ed9-9c2afdc7ff96")
-	)
-	(text "Reference sheet:\nhttps://ez.analog.com/cfs-filesystemfile/__key/communityserver-wikis-components-files/00-00-00-06-97/KWIK_5F00_FAQ-_2D00_-Design-of-an-anti_2D00_aliasing-Sallen_2D00_Key-filter.pdf?_=638128614376877068"
-		(exclude_from_sim no)
-		(at 61.976 17.526 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e4476048-1243-42be-903c-98903afe6a1d")
 	)
 	(junction
 		(at 111.76 86.36)

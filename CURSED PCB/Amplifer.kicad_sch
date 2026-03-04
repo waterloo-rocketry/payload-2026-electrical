@@ -1580,7 +1580,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Math is done on a google sheets labbeled \"Experimental & PCB Data Setup Master\" under Transimpedance Amplifer\n"
+	(text "Math is done on a google sheets labbeled \"Experimental & PCB Data Setup Master\" under Transimpedance Amplifer\nGoogle sheet is found under payload 2026 under data magnement "
 		(exclude_from_sim no)
 		(at 146.304 130.556 0)
 		(effects
@@ -2405,7 +2405,7 @@
 				)
 			)
 		)
-		(property "Value" "3245nF"
+		(property "Value" "3200nF"
 			(at 154.9463 120.65 90)
 			(effects
 				(font
