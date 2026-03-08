@@ -2393,7 +2393,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://thin01mstroc282prod.dxcloud.episerver.net/globalassets/items/p/pa/pa2/pa25few/ctn014120-s01.pdf?v=0116015302?v=2026-01-16-13-53-02"
 			(at 100.33 132.08 0)
 			(effects
 				(font
