@@ -804,6 +804,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+24V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+24V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+24V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+24V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+24V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+5V"
 			(power)
 			(pin_numbers
@@ -1031,19 +1156,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "24V"
-		(exclude_from_sim no)
-		(at 152.908 100.584 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "2cf7dc01-d0bf-4987-8629-fd369e5bc315")
-	)
 	(text "Name: TPS61046YFFR\nidk why its not updating"
 		(exclude_from_sim no)
-		(at 120.396 95.25 0)
+		(at 124.46 95.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1058,16 +1173,16 @@
 		(uuid "0eccb8c3-b993-45fc-9668-bc0d6778e7cb")
 	)
 	(junction
-		(at 134.62 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3cfcddf1-e6ef-430e-8af2-6d27171a5288")
-	)
-	(junction
 		(at 95.25 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "41ce4e92-f243-4c0d-b115-bc52c7751725")
+	)
+	(junction
+		(at 134.62 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4c1c2eeb-143d-4947-b5b6-851b9f03fd6e")
 	)
 	(junction
 		(at 120.65 127)
@@ -1102,6 +1217,16 @@
 			(type default)
 		)
 		(uuid "1564b3f4-1a1b-4698-a5a1-2830916bdef2")
+	)
+	(wire
+		(pts
+			(xy 154.94 104.14) (xy 154.94 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "224260fb-a9a4-413b-9045-d703589d2aa4")
 	)
 	(wire
 		(pts
@@ -1195,7 +1320,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 104.14) (xy 152.4 104.14)
+			(xy 134.62 104.14) (xy 154.94 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1345,7 +1470,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 111.76) (xy 134.62 104.14)
+			(xy 134.62 104.14) (xy 134.62 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1362,17 +1487,6 @@
 			(type default)
 		)
 		(uuid "ffa8814a-a6a9-43ed-ad3e-dee6bf533667")
-	)
-	(hierarchical_label "V_AMP_OUT"
-		(shape output)
-		(at 152.4 104.14 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1827daf3-5491-4761-985a-221a66d27e1f")
 	)
 	(symbol
 		(lib_id "Device:L")
@@ -1437,6 +1551,72 @@
 			(project ""
 				(path "/9fb1a86f-679c-4b88-9ed1-932f4f414580/a884d289-6403-4974-bfe5-5c532984589b"
 					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+24V")
+		(at 154.94 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "195d802b-14e8-46eb-bd96-baeeee1cabbc")
+		(property "Reference" "#PWR053"
+			(at 154.94 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+24V"
+			(at 154.94 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 154.94 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a0908523-91e0-4911-a8d6-d6b0f5bffb53")
+		)
+		(instances
+			(project "sensor_1"
+				(path "/9fb1a86f-679c-4b88-9ed1-932f4f414580/a884d289-6403-4974-bfe5-5c532984589b"
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)

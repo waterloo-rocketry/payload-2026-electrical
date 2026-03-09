@@ -1811,16 +1811,6 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 36.83) (xy 154.94 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02853ef0-1170-46ef-869a-b19af9c8a8e9")
-	)
-	(wire
-		(pts
 			(xy 74.93 139.7) (xy 74.93 144.78)
 		)
 		(stroke
@@ -1988,16 +1978,6 @@
 			(type default)
 		)
 		(uuid "36631976-86af-4bb0-bf38-a38f4796d1a2")
-	)
-	(wire
-		(pts
-			(xy 67.31 45.72) (xy 71.12 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38c0474a-0f84-4ab3-8784-2e9c4f5f348b")
 	)
 	(wire
 		(pts
@@ -2617,9 +2597,9 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "072a6fe1-9ec8-467b-99e4-1e47d8ce7720")
+		(uuid "072a6fe1-9ec8-467b-99e4-1e47d8ce7721")
 	)
-	(label "PGC"
+	(label "PGC{slash}ICSPDAT"
 		(at 133.35 54.61 0)
 		(effects
 			(font
@@ -2627,9 +2607,9 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "072a6fe1-9ec8-467b-99e4-1e47d8ce7720")
+		(uuid "072a6fe1-9ec8-467b-99e4-1e47d8ce7722")
 	)
-	(label "PGD"
+	(label "PGD{slash}ICSPCLK"
 		(at 133.35 58.42 0)
 		(effects
 			(font
@@ -2637,7 +2617,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "072a6fe1-9ec8-467b-99e4-1e47d8ce7720")
+		(uuid "072a6fe1-9ec8-467b-99e4-1e47d8ce7723")
 	)
 	(label "MCLR"
 		(at 133.35 62.23 0)
@@ -2647,7 +2627,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "072a6fe1-9ec8-467b-99e4-1e47d8ce7720")
+		(uuid "072a6fe1-9ec8-467b-99e4-1e47d8ce7724")
 	)
 	(label "SCLK"
 		(at 62.23 168.91 0)
@@ -2749,17 +2729,7 @@
 		)
 		(uuid "6759ed14-1e7f-4cdb-b2d2-b9c8e1b4e6ee")
 	)
-	(label "PZT_BOOST"
-		(at 71.12 45.72 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6cbd0c3f-892d-4387-9206-72c230fd4eb8")
-	)
-	(label "IRQ"
+	(label "IRQ{slash}MDAT"
 		(at 88.9 30.48 180)
 		(effects
 			(font
@@ -2767,7 +2737,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "6cbd0c3f-892d-4387-9206-72c230fd4eb8")
+		(uuid "6cbd0c3f-892d-4387-9206-72c230fd4eb9")
 	)
 	(label "CS2"
 		(at 88.9 36.83 180)
@@ -2777,7 +2747,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "6cbd0c3f-892d-4387-9206-72c230fd4eb8")
+		(uuid "6cbd0c3f-892d-4387-9206-72c230fd4eba")
 	)
 	(label "MOSI"
 		(at 133.35 39.37 0)
@@ -2787,9 +2757,9 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "6cbd0c3f-892d-4387-9206-72c230fd4eb8")
+		(uuid "6cbd0c3f-892d-4387-9206-72c230fd4ebb")
 	)
-	(label "MLKIN"
+	(label "MKLKIN"
 		(at 133.35 50.8 0)
 		(effects
 			(font
@@ -2797,7 +2767,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "6cbd0c3f-892d-4387-9206-72c230fd4eb8")
+		(uuid "6cbd0c3f-892d-4387-9206-72c230fd4ebc")
 	)
 	(label "MISO"
 		(at 133.35 36.83 0)
@@ -2807,7 +2777,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "6cbd0c3f-892d-4387-9206-72c230fd4eb8")
+		(uuid "6cbd0c3f-892d-4387-9206-72c230fd4ebd")
 	)
 	(label "SCLK"
 		(at 133.35 34.29 0)
@@ -2817,7 +2787,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "6cbd0c3f-892d-4387-9206-72c230fd4eb8")
+		(uuid "6cbd0c3f-892d-4387-9206-72c230fd4ebe")
 	)
 	(label "CS"
 		(at 133.35 31.75 0)
@@ -2827,7 +2797,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "6cbd0c3f-892d-4387-9206-72c230fd4eb8")
+		(uuid "6cbd0c3f-892d-4387-9206-72c230fd4ebf")
 	)
 	(label "CUR_SEN"
 		(at 134.62 29.21 0)
@@ -2837,7 +2807,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "6cbd0c3f-892d-4387-9206-72c230fd4eb8")
+		(uuid "6cbd0c3f-892d-4387-9206-72c230fd4ec0")
 	)
 	(label "MOSI"
 		(at 71.12 40.64 0)
@@ -2858,16 +2828,6 @@
 			(justify left bottom)
 		)
 		(uuid "8e206d14-fd43-400b-96e1-3619714becf2")
-	)
-	(label "PZT_BOOST"
-		(at 152.4 36.83 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a130bc75-69cc-473b-b5f0-64d7191c630b")
 	)
 	(label "CS2"
 		(at 62.23 161.29 0)
@@ -4501,16 +4461,6 @@
 				(justify right)
 			)
 		)
-		(pin "PZT_BOOST_out" input
-			(at 67.31 45.72 0)
-			(uuid "5c0083fa-b714-4d0d-a787-17053fd0bef2")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(instances
 			(project "sensor_1"
 				(path "/9fb1a86f-679c-4b88-9ed1-932f4f414580"
@@ -4906,16 +4856,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-			)
-		)
-		(pin "V_AMP_OUT" output
-			(at 154.94 36.83 180)
-			(uuid "4f5044e3-1d2f-4782-9b91-60c4bf1e2b7b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(instances

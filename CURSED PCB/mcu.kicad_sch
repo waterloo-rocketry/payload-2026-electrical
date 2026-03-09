@@ -2875,21 +2875,25 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Laser: https://www.iadiy.com/infrared-laser-module-LM9IR830H200D&path=168_173"
+		(exclude_from_sim no)
+		(at 225.298 159.512 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1467aa35-64ef-4097-a5f9-27efbfccd955")
+	)
 	(text "C5=C6=2*(C_L - C_S)\n\nC_L = 8 \nC_S = 5\n\nC5=C6=6"
 		(exclude_from_sim no)
-		(at 31.75 151.13 0)
+		(at 37.338 137.414 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "ce557ff8-b70b-499c-a989-09845b2787e1")
-	)
-	(junction
-		(at 191.77 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "14c67b9c-2c83-4403-8ff0-811ce47dffba")
 	)
 	(junction
 		(at 39.37 48.26)
@@ -2934,16 +2938,10 @@
 		(uuid "840cee6a-e0bb-4e2c-987f-9c427562fbc9")
 	)
 	(junction
-		(at 189.23 58.42)
+		(at 193.04 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8c4ebe0a-e691-44cb-9e4d-da99f76206da")
-	)
-	(junction
-		(at 191.77 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a0ad0af1-18e7-4612-8b98-7150ab7d6305")
+		(uuid "9a8aa314-9b7c-46a7-a0b4-e79a87d1a8af")
 	)
 	(junction
 		(at 220.98 46.99)
@@ -2976,16 +2974,16 @@
 		(uuid "b92e9f07-0aa3-4b07-b51c-0edfc52ad250")
 	)
 	(junction
+		(at 193.04 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c09da0f1-f17a-40f1-b5d0-d9765115c667")
+	)
+	(junction
 		(at 227.33 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c2f7372f-34c5-4364-a26a-210b0eeb43ee")
-	)
-	(junction
-		(at 231.14 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c76e04b0-c176-444f-882a-c6beab783e10")
 	)
 	(no_connect
 		(at 149.86 69.85)
@@ -3023,7 +3021,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 50.8) (xy 191.77 49.53)
+			(xy 193.04 50.8) (xy 193.04 49.53)
 		)
 		(stroke
 			(width 0)
@@ -3043,7 +3041,17 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 46.99) (xy 234.95 46.99)
+			(xy 193.04 58.42) (xy 200.66 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0522358b-b992-412e-9541-e2cfe8947320")
+	)
+	(wire
+		(pts
+			(xy 227.33 46.99) (xy 233.68 46.99)
 		)
 		(stroke
 			(width 0)
@@ -3073,16 +3081,6 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 58.42) (xy 189.23 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "08b77794-c00f-4aae-9f6e-c621394c9ef5")
-	)
-	(wire
-		(pts
 			(xy 149.86 82.55) (xy 163.83 82.55)
 		)
 		(stroke
@@ -3093,7 +3091,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 49.53) (xy 191.77 49.53)
+			(xy 200.66 49.53) (xy 193.04 49.53)
 		)
 		(stroke
 			(width 0)
@@ -3140,16 +3138,6 @@
 			(type default)
 		)
 		(uuid "1ef2226e-d6d0-4cb1-a63d-676cfb65970b")
-	)
-	(wire
-		(pts
-			(xy 191.77 58.42) (xy 200.66 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "247cbfe4-c15d-413f-91db-d0eb49fedd7e")
 	)
 	(wire
 		(pts
@@ -3223,7 +3211,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 58.42) (xy 189.23 62.23)
+			(xy 193.04 58.42) (xy 193.04 62.23)
 		)
 		(stroke
 			(width 0)
@@ -3260,16 +3248,6 @@
 			(type default)
 		)
 		(uuid "4839dcff-7c94-48be-8f9c-2708eabd357e")
-	)
-	(wire
-		(pts
-			(xy 231.14 54.61) (xy 234.95 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49e55c33-9cb0-426a-b814-92f9b8a5c28c")
 	)
 	(wire
 		(pts
@@ -3393,7 +3371,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 54.61) (xy 231.14 54.61)
+			(xy 227.33 54.61) (xy 233.68 54.61)
 		)
 		(stroke
 			(width 0)
@@ -3433,16 +3411,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 72.39) (xy 109.22 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ad8207d-3fa0-47e1-b7fa-05ee5bf6f5a1")
-	)
-	(wire
-		(pts
 			(xy 77.47 74.93) (xy 85.09 74.93)
 		)
 		(stroke
@@ -3460,6 +3428,16 @@
 			(type default)
 		)
 		(uuid "961ed796-6227-4b39-9560-6ff5b84cee0f")
+	)
+	(wire
+		(pts
+			(xy 91.44 72.39) (xy 109.22 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9722cafd-bceb-4f6e-bd04-1abd15929d6e")
 	)
 	(wire
 		(pts
@@ -3553,7 +3531,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 49.53) (xy 185.42 49.53)
+			(xy 185.42 49.53) (xy 193.04 49.53)
 		)
 		(stroke
 			(width 0)
@@ -3593,7 +3571,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 58.42) (xy 185.42 58.42)
+			(xy 185.42 58.42) (xy 193.04 58.42)
 		)
 		(stroke
 			(width 0)
@@ -3613,7 +3591,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 54.61) (xy 231.14 57.15)
+			(xy 227.33 54.61) (xy 227.33 57.15)
 		)
 		(stroke
 			(width 0)
@@ -4063,7 +4041,7 @@
 	)
 	(symbol
 		(lib_id "PCM_Capacitor_US_AKL:C_0201")
-		(at 191.77 54.61 180)
+		(at 193.04 54.61 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4071,7 +4049,7 @@
 		(dnp no)
 		(uuid "1c2fe092-4bd0-4d9c-a8fe-4e006b8a79cf")
 		(property "Reference" "C7"
-			(at 194.818 53.34 0)
+			(at 196.088 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4080,7 +4058,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 194.818 55.88 0)
+			(at 196.088 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4089,7 +4067,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 190.8048 50.8 0)
+			(at 192.0748 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4098,7 +4076,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 191.77 54.61 0)
+			(at 193.04 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4107,7 +4085,7 @@
 			)
 		)
 		(property "Description" "SMD 0201 MLCC capacitor, Alternate KiCad Library"
-			(at 191.77 54.61 0)
+			(at 193.04 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4731,7 +4709,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 231.14 57.15 0)
+		(at 227.33 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4739,7 +4717,7 @@
 		(dnp no)
 		(uuid "5201ddc1-3786-4f11-a360-d6b8dd4a79c9")
 		(property "Reference" "#PWR071"
-			(at 231.14 63.5 0)
+			(at 227.33 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4748,7 +4726,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 231.1401 60.96 90)
+			(at 227.3301 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4757,7 +4735,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 231.14 57.15 0)
+			(at 227.33 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4766,7 +4744,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 231.14 57.15 0)
+			(at 227.33 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4775,7 +4753,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 231.14 57.15 0)
+			(at 227.33 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5837,7 +5815,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 189.23 62.23 0)
+		(at 193.04 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5845,7 +5823,7 @@
 		(dnp no)
 		(uuid "abd5352d-d658-4441-9454-7876c7d53991")
 		(property "Reference" "#PWR068"
-			(at 189.23 68.58 0)
+			(at 193.04 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5854,7 +5832,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 189.2301 66.04 90)
+			(at 193.0401 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5863,7 +5841,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 189.23 62.23 0)
+			(at 193.04 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5872,7 +5850,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.23 62.23 0)
+			(at 193.04 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5881,7 +5859,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 189.23 62.23 0)
+			(at 193.04 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6397,7 +6375,7 @@
 	)
 	(symbol
 		(lib_id "PCM_Capacitor_US_AKL:C_0201")
-		(at 234.95 50.8 180)
+		(at 233.68 50.8 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6406,7 +6384,7 @@
 		(fields_autoplaced yes)
 		(uuid "e30db939-3b20-4c73-8c77-0b8bbcc53399")
 		(property "Reference" "C27"
-			(at 238.76 49.5299 0)
+			(at 237.49 49.5299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6415,7 +6393,7 @@
 			)
 		)
 		(property "Value" "4.7uF"
-			(at 238.76 52.0699 0)
+			(at 237.49 52.0699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6424,7 +6402,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 233.9848 46.99 0)
+			(at 232.7148 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6433,7 +6411,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 234.95 50.8 0)
+			(at 233.68 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6442,7 +6420,7 @@
 			)
 		)
 		(property "Description" "SMD 0201 MLCC capacitor, Alternate KiCad Library"
-			(at 234.95 50.8 0)
+			(at 233.68 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
