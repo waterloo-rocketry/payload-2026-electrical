@@ -1514,7 +1514,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MLF1608E120JTD25:IND_1608_TDK"
+		(property "Footprint" "LBM2016T120J:INDC2016X180N"
 			(at 95.25 88.9 0)
 			(effects
 				(font

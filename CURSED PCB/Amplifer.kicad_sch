@@ -1580,9 +1580,19 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "These values are subject to change in expected freq changes"
+		(exclude_from_sim no)
+		(at 103.632 108.712 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "218d524d-f530-4489-a00a-f18141eeaa9f")
+	)
 	(text "Math is done on a google sheets labbeled \"Experimental & PCB Data Setup Master\" under Transimpedance Amplifer\nGoogle sheet is found under payload 2026 under data magnement "
 		(exclude_from_sim no)
-		(at 146.304 130.556 0)
+		(at 144.78 136.398 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1693,20 +1703,8 @@
 		(uuid "d0ec7511-95f5-482f-b443-38f58c17812d")
 	)
 	(no_connect
-		(at 229.87 90.17)
-		(uuid "09c0107a-043c-4c1f-8454-9b0c4613cf2d")
-	)
-	(no_connect
 		(at 229.87 97.79)
 		(uuid "2b3c5927-d974-47a7-8a58-3661338fee45")
-	)
-	(no_connect
-		(at 229.87 92.71)
-		(uuid "69059cae-3222-4105-a9c6-f02ea1611429")
-	)
-	(no_connect
-		(at 229.87 87.63)
-		(uuid "cab1a86d-52e8-436e-84c0-71cdb2ff7425")
 	)
 	(no_connect
 		(at 260.35 97.79)
