@@ -591,49 +591,42 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Regulator_Switching:TPS610995DRV"
+		(symbol "TLV61046A:TLV61046ADBVR"
+			(pin_names
+				(offset 1.016)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at -5.08 7.62 0)
+				(at -12.7 11.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
+					(justify left bottom)
 				)
 			)
-			(property "Value" "TPS610995DRV"
-				(at 0 7.62 0)
+			(property "Value" "TLV61046ADBVR"
+				(at -12.7 -14.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
+					(justify left bottom)
 				)
 			)
-			(property "Footprint" "Package_SON:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm"
-				(at 1.27 -3.81 0)
+			(property "Footprint" "TLV61046ADBVR:SOT95P280X145-6N"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
-						(italic yes)
 					)
-					(justify left)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.ti.com/lit/gpn/TPS61099"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Boost Converter, 0.7-5.5V Input Voltage, 1A Switch Current, Fixed 3.6V Output Voltage, WSON-6"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -642,7 +635,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "Step-Up DC-DC Converter"
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -651,152 +644,192 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "WSON*1EP*2x2mm*P0.65mm*"
+			(property "DigiKey_Part_Number" "296-47674-1-ND"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(symbol "TPS610995DRV_0_1"
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/TLV61046ADBVR/Texas+Instruments/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "28-V Output Voltage Boost Converter with Power Diode and Isolation Switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MF" "Texas Instruments"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "SOT-23-6 Texas Instruments"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/TLV61046ADBVR/Texas+Instruments/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "TLV61046ADBVR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "TLV61046ADBVR_0_0"
 				(rectangle
-					(start -5.08 6.35)
-					(end 5.08 -2.54)
+					(start -12.7 -10.16)
+					(end 12.7 10.16)
 					(stroke
-						(width 0.254)
+						(width 0.41)
 						(type default)
 					)
 					(fill
 						(type background)
 					)
 				)
-			)
-			(symbol "TPS610995DRV_1_1"
-				(pin power_in line
-					(at -7.62 5.08 0)
-					(length 2.54)
-					(name "VI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
-					(at -7.62 0 0)
-					(length 2.54)
+					(at -17.78 7.62 0)
+					(length 5.08)
 					(name "EN"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "4"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin power_in line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 7.62 5.08 180)
-					(length 2.54)
-					(name "SW"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 7.62 2.54 180)
-					(length 2.54)
-					(name "VOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 2.54)
+				(pin input line
+					(at -17.78 5.08 0)
+					(length 5.08)
 					(name "FB"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "3"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 2.54 0)
+					(length 5.08)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 7.62 180)
+					(length 5.08)
+					(name "SW"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 5.08 180)
+					(length 5.08)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 -5.08 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -1156,61 +1189,91 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Name: TPS61046YFFR\nidk why its not updating"
+	(text "Reference photos, calculations all in Payload Experimental & PCB Data Setup Master\nunder Booster sheet"
 		(exclude_from_sim no)
-		(at 124.46 95.25 0)
+		(at 61.722 153.924 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "efd91877-bd12-4d11-8625-209b7731c1b1")
+		(uuid "c02623d0-85e1-42d0-8a79-7faabed99ee9")
 	)
 	(junction
-		(at 81.28 101.6)
+		(at 119.38 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0eccb8c3-b993-45fc-9668-bc0d6778e7cb")
+		(uuid "4877c809-68df-4640-b4f4-69f3bcd20d47")
 	)
 	(junction
-		(at 95.25 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "41ce4e92-f243-4c0d-b115-bc52c7751725")
-	)
-	(junction
-		(at 134.62 104.14)
+		(at 133.35 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4c1c2eeb-143d-4947-b5b6-851b9f03fd6e")
 	)
 	(junction
-		(at 120.65 127)
+		(at 99.06 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "50b182f5-634f-4420-919d-87532c95e5fa")
+		(uuid "57172f8b-dbf0-4dcd-9d8e-86a4141e95e2")
 	)
 	(junction
-		(at 120.65 104.14)
+		(at 35.56 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5bdfdbfb-63cc-4b8a-b1dc-c3dccb34bfdf")
+	)
+	(junction
+		(at 119.38 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "815099aa-1599-4c0d-b9ed-cc77e201c2fa")
 	)
 	(junction
-		(at 120.65 116.84)
+		(at 48.26 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a94b8d4e-5c44-49c9-a230-984f0cc2fafe")
+		(uuid "940cbcbc-0faa-477b-8c96-e8459a332648")
 	)
 	(junction
-		(at 63.5 101.6)
+		(at 119.38 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ba650aab-966b-455e-b6e1-a07916745489")
+		(uuid "e2fa09bb-aa5d-4a2a-a1de-c8109889ddfc")
 	)
 	(wire
 		(pts
-			(xy 102.87 104.14) (xy 120.65 104.14)
+			(xy 119.38 143.51) (xy 133.35 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0014812a-dbc7-458f-ba8b-2f6b216b9a92")
+	)
+	(wire
+		(pts
+			(xy 35.56 121.92) (xy 48.26 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e7adee6-8799-47f8-9450-02d0b4fdb712")
+	)
+	(wire
+		(pts
+			(xy 119.38 139.7) (xy 119.38 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1374002d-9b96-4dbb-bcd2-05def25435fa")
+	)
+	(wire
+		(pts
+			(xy 102.87 116.84) (xy 119.38 116.84)
 		)
 		(stroke
 			(width 0)
@@ -1220,7 +1283,17 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 104.14) (xy 154.94 92.71)
+			(xy 102.87 124.46) (xy 102.87 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bd44c85-8aca-4519-8e76-d8bd2189857d")
+	)
+	(wire
+		(pts
+			(xy 154.94 116.84) (xy 154.94 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1230,57 +1303,47 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 101.6) (xy 87.63 101.6)
+			(xy 119.38 130.81) (xy 119.38 132.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "241255fc-09e7-4723-a11a-05779385865d")
+		(uuid "27d22fa4-4969-4c02-bc67-580537473566")
 	)
 	(wire
 		(pts
-			(xy 63.5 101.6) (xy 81.28 101.6)
+			(xy 48.26 114.3) (xy 62.23 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3d049091-6ab5-401b-a714-0105ce7f62e5")
+		(uuid "438a6b20-465f-408d-8eca-701e33a1699a")
 	)
 	(wire
 		(pts
-			(xy 120.65 116.84) (xy 120.65 119.38)
+			(xy 46.99 132.08) (xy 83.82 132.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "41a99711-649e-4679-9240-4bc9ce457ec3")
+		(uuid "4a6fb649-657f-4e64-a730-3e8b505fcae0")
 	)
 	(wire
 		(pts
-			(xy 63.5 93.98) (xy 63.5 101.6)
+			(xy 99.06 134.62) (xy 99.06 143.51)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4cd2869f-6169-4524-9d0b-368c87c8ca29")
+		(uuid "545482fc-c3aa-4850-88c5-46e3ea34a82f")
 	)
 	(wire
 		(pts
-			(xy 102.87 106.68) (xy 111.76 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "537a3049-977b-4c07-bb16-773aa791869e")
-	)
-	(wire
-		(pts
-			(xy 120.65 104.14) (xy 134.62 104.14)
+			(xy 119.38 116.84) (xy 133.35 116.84)
 		)
 		(stroke
 			(width 0)
@@ -1290,17 +1353,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 116.84) (xy 120.65 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f9c8bc0-89d5-4ba7-88fe-5d2fd402f101")
-	)
-	(wire
-		(pts
-			(xy 95.25 127) (xy 120.65 127)
+			(xy 99.06 143.51) (xy 119.38 143.51)
 		)
 		(stroke
 			(width 0)
@@ -1310,17 +1363,17 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 106.68) (xy 111.76 116.84)
+			(xy 83.82 130.81) (xy 119.38 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "787d2284-5cc5-4797-8f2d-5bdd09a48751")
+		(uuid "73512699-6426-4ca5-82c2-f693137b2c83")
 	)
 	(wire
 		(pts
-			(xy 134.62 104.14) (xy 154.94 104.14)
+			(xy 133.35 116.84) (xy 154.94 116.84)
 		)
 		(stroke
 			(width 0)
@@ -1330,17 +1383,27 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 111.76) (xy 95.25 127)
+			(xy 85.09 134.62) (xy 99.06 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "81c17fc5-18ee-4bb1-915e-9e3beef71ba3")
+		(uuid "8660ffd5-ef0b-4d2a-ba1d-cad93690beac")
 	)
 	(wire
 		(pts
-			(xy 95.25 128.27) (xy 95.25 127)
+			(xy 49.53 124.46) (xy 46.99 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c73bc0a-9004-4435-9c8e-d7a8ccb0e27b")
+	)
+	(wire
+		(pts
+			(xy 99.06 144.78) (xy 99.06 143.51)
 		)
 		(stroke
 			(width 0)
@@ -1350,7 +1413,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 113.03) (xy 63.5 111.76)
+			(xy 35.56 133.35) (xy 35.56 132.08)
 		)
 		(stroke
 			(width 0)
@@ -1360,17 +1423,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 101.6) (xy 81.28 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2c07c6d-8ae3-4daf-b964-33e088e0c712")
-	)
-	(wire
-		(pts
-			(xy 99.06 88.9) (xy 109.22 88.9)
+			(xy 69.85 114.3) (xy 85.09 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1380,17 +1433,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 127) (xy 120.65 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "acb30834-ee99-4e72-9ae5-2d7096076e41")
-	)
-	(wire
-		(pts
-			(xy 120.65 104.14) (xy 120.65 106.68)
+			(xy 119.38 116.84) (xy 119.38 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1400,7 +1443,27 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 119.38) (xy 134.62 127)
+			(xy 46.99 124.46) (xy 46.99 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b871a179-7e3f-4161-aac6-ff45d95cad2f")
+	)
+	(wire
+		(pts
+			(xy 85.09 124.46) (xy 102.87 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b93eaf88-7c10-4a63-9abc-b911bebdda83")
+	)
+	(wire
+		(pts
+			(xy 133.35 132.08) (xy 133.35 143.51)
 		)
 		(stroke
 			(width 0)
@@ -1410,27 +1473,47 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 101.6) (xy 109.22 88.9)
+			(xy 48.26 121.92) (xy 49.53 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c6b54fb3-c03e-4345-8b98-acd61ef6307c")
+		(uuid "bb306d39-de2a-4e1b-ae62-77b72387e657")
 	)
 	(wire
 		(pts
-			(xy 81.28 106.68) (xy 87.63 106.68)
+			(xy 48.26 127) (xy 48.26 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cd2933cb-f744-4d9b-85a1-efdb0a2aab62")
+		(uuid "bc20fb0f-1e6c-4b33-a1f3-57a02679ab67")
 	)
 	(wire
 		(pts
-			(xy 120.65 114.3) (xy 120.65 116.84)
+			(xy 83.82 132.08) (xy 83.82 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c66da014-f8c0-4c6b-8211-1e3c3f6896d0")
+	)
+	(wire
+		(pts
+			(xy 35.56 121.92) (xy 35.56 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc700c1d-ff57-4bd8-a4ca-c486b39595a4")
+	)
+	(wire
+		(pts
+			(xy 119.38 127) (xy 119.38 130.81)
 		)
 		(stroke
 			(width 0)
@@ -1440,17 +1523,27 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 88.9) (xy 81.28 101.6)
+			(xy 48.26 114.3) (xy 48.26 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d3a626de-079e-44d3-8e0e-0afafb322b48")
+		(uuid "d859c5cd-f634-46f1-8225-d2b0577a914c")
 	)
 	(wire
 		(pts
-			(xy 63.5 104.14) (xy 63.5 101.6)
+			(xy 85.09 114.3) (xy 85.09 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc9a181f-2a59-4101-92f3-72ae2ee238e8")
+	)
+	(wire
+		(pts
+			(xy 35.56 114.3) (xy 35.56 121.92)
 		)
 		(stroke
 			(width 0)
@@ -1460,17 +1553,17 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 101.6) (xy 102.87 101.6)
+			(xy 49.53 127) (xy 48.26 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e13b2025-dd95-405a-816c-f5d8fe630ff5")
+		(uuid "eeb408a4-8818-4cbb-868b-861a29157cb9")
 	)
 	(wire
 		(pts
-			(xy 134.62 104.14) (xy 134.62 111.76)
+			(xy 133.35 116.84) (xy 133.35 124.46)
 		)
 		(stroke
 			(width 0)
@@ -1478,19 +1571,9 @@
 		)
 		(uuid "ef2fbbf7-ee36-4868-ad74-74071b671df0")
 	)
-	(wire
-		(pts
-			(xy 81.28 88.9) (xy 91.44 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ffa8814a-a6a9-43ed-ad3e-dee6bf533667")
-	)
 	(symbol
 		(lib_id "Device:L")
-		(at 95.25 88.9 90)
+		(at 66.04 114.3 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1499,15 +1582,15 @@
 		(fields_autoplaced yes)
 		(uuid "16016367-4229-4242-a467-1b3477aab96b")
 		(property "Reference" "L1"
-			(at 95.25 83.82 90)
+			(at 66.04 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "12uH"
-			(at 95.25 86.36 90)
+		(property "Value" "10uH"
+			(at 66.04 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1515,7 +1598,7 @@
 			)
 		)
 		(property "Footprint" "ul_NRH3010T100MN:IND_TAIYO_NRH3010_TAY"
-			(at 95.25 88.9 0)
+			(at 66.04 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1524,7 +1607,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.ca/en/products/detail/tdk-corporation/MLF1608E120JTD25/4743066"
-			(at 95.25 88.9 0)
+			(at 66.04 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1533,7 +1616,7 @@
 			)
 		)
 		(property "Description" "Inductor"
-			(at 95.25 88.9 0)
+			(at 66.04 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1624,7 +1707,7 @@
 	)
 	(symbol
 		(lib_id "PCM_Capacitor_US_AKL:C_0201")
-		(at 63.5 107.95 0)
+		(at 35.56 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1633,7 +1716,7 @@
 		(fields_autoplaced yes)
 		(uuid "21b7109d-4d51-4940-88f3-5be6fc815ed5")
 		(property "Reference" "C19"
-			(at 67.31 106.6799 0)
+			(at 39.37 126.9999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1642,7 +1725,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 67.31 109.2199 0)
+			(at 39.37 129.5399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1651,7 +1734,7 @@
 			)
 		)
 		(property "Footprint" "EMK107B7105KA-T:CAPC1608X90N"
-			(at 64.4652 111.76 0)
+			(at 36.5252 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1660,7 +1743,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 63.5 107.95 0)
+			(at 35.56 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1669,7 +1752,7 @@
 			)
 		)
 		(property "Description" "SMD 0201 MLCC capacitor, Alternate KiCad Library"
-			(at 63.5 107.95 0)
+			(at 35.56 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1693,102 +1776,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Regulator_Switching:TPS610995DRV")
-		(at 95.25 106.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2267bf36-84d1-4ecb-9bc9-5cda3d78909b")
-		(property "Reference" "U11"
-			(at 95.25 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TPS61046YFFR"
-			(at 95.25 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SON:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm"
-			(at 96.52 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/TPS61099"
-			(at 95.25 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Boost Converter, 0.7-5.5V Input Voltage, 1A Switch Current, Fixed 3.6V Output Voltage, WSON-6"
-			(at 95.25 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Name" "TPS61046YFFR"
-			(at 95.25 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "a284512b-f28f-41c1-b2d6-bca48bd49874")
-		)
-		(pin "4"
-			(uuid "51481ec4-72f1-4559-a541-1846ab75f4c1")
-		)
-		(pin "3"
-			(uuid "0ab54638-d29e-4d2e-b7e7-b129fc59ca67")
-		)
-		(pin "2"
-			(uuid "087c8f56-6b62-4bbd-9bd6-f36f7872fbc7")
-		)
-		(pin "1"
-			(uuid "95b5fe73-d247-4df1-b906-3142f22b40ef")
-		)
-		(pin "6"
-			(uuid "8718122c-1a7c-4408-963b-377337e30408")
-		)
-		(pin "5"
-			(uuid "ed672dd9-d857-45f1-821d-a6514d58a05e")
-		)
-		(instances
-			(project ""
-				(path "/9fb1a86f-679c-4b88-9ed1-932f4f414580/a884d289-6403-4974-bfe5-5c532984589b"
-					(reference "U11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 95.25 128.27 0)
+		(at 99.06 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1797,7 +1786,7 @@
 		(fields_autoplaced yes)
 		(uuid "240bf6d8-d8b0-45d6-9367-1804f7fa8c51")
 		(property "Reference" "#PWR050"
-			(at 95.25 134.62 0)
+			(at 99.06 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1806,7 +1795,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 97.79 129.5399 0)
+			(at 101.6 146.0499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1815,7 +1804,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 95.25 128.27 0)
+			(at 99.06 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1824,7 +1813,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 128.27 0)
+			(at 99.06 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1833,7 +1822,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 95.25 128.27 0)
+			(at 99.06 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1855,7 +1844,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 120.65 123.19 180)
+		(at 119.38 135.89 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1864,7 +1853,7 @@
 		(fields_autoplaced yes)
 		(uuid "434d7bc7-8b38-475c-93e4-5a27da77f10f")
 		(property "Reference" "R12"
-			(at 123.19 121.9199 0)
+			(at 121.92 134.6199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1872,8 +1861,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "120k"
-			(at 123.19 124.4599 0)
+		(property "Value" "71.5K"
+			(at 121.92 137.1599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1882,7 +1871,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 119.634 122.936 90)
+			(at 118.364 135.636 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1891,7 +1880,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 120.65 123.19 0)
+			(at 119.38 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1900,7 +1889,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 120.65 123.19 0)
+			(at 119.38 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1924,8 +1913,158 @@
 		)
 	)
 	(symbol
+		(lib_id "TLV61046A:TLV61046ADBVR")
+		(at 67.31 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "449dcfac-5611-40a2-b855-0795fb513f78")
+		(property "Reference" "U9"
+			(at 71.374 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLV61046ADBVR"
+			(at 85.598 116.078 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TLV61046A:SOT95P280X145-6N"
+			(at 67.31 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 67.31 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "296-47674-1-ND"
+			(at 67.31 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TLV61046ADBVR/Texas+Instruments/view-part/?ref=snap"
+			(at 67.31 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "28-V Output Voltage Boost Converter with Power Diode and Isolation Switch"
+			(at 67.31 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "Texas Instruments"
+			(at 67.31 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOT-23-6 Texas Instruments"
+			(at 67.31 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TLV61046ADBVR/Texas+Instruments/view-part/?ref=eda"
+			(at 67.31 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "TLV61046ADBVR"
+			(at 67.31 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "985ee7fb-cc08-4314-b901-0b27652d1823")
+		)
+		(pin "1"
+			(uuid "66a0fb33-db22-47d7-ad23-de7eeafc527d")
+		)
+		(pin "2"
+			(uuid "1d5aadbf-f28e-4efd-a5df-eb343fd89534")
+		)
+		(pin "4"
+			(uuid "95d1a298-7cfe-4d0c-916b-866ae007a0e4")
+		)
+		(pin "6"
+			(uuid "a9fd4525-5294-4ceb-b870-e798cdf4520d")
+		)
+		(pin "3"
+			(uuid "3e3ae402-e1e2-4896-9a12-bcbe35b9b2df")
+		)
+		(instances
+			(project ""
+				(path "/9fb1a86f-679c-4b88-9ed1-932f4f414580/a884d289-6403-4974-bfe5-5c532984589b"
+					(reference "U9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_Capacitor_US_AKL:C_0201")
-		(at 134.62 115.57 0)
+		(at 133.35 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1934,7 +2073,7 @@
 		(fields_autoplaced yes)
 		(uuid "485265a5-0f7b-4eb0-a699-1e7f5dbd2e17")
 		(property "Reference" "C20"
-			(at 138.43 114.2999 0)
+			(at 137.16 126.9999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1943,7 +2082,7 @@
 			)
 		)
 		(property "Value" "4.75uF"
-			(at 138.43 116.8399 0)
+			(at 137.16 129.5399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1952,7 +2091,7 @@
 			)
 		)
 		(property "Footprint" "MCASU31LSB5105KTNA01:CAPC3216X180N"
-			(at 135.5852 119.38 0)
+			(at 134.3152 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1961,7 +2100,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 134.62 115.57 0)
+			(at 133.35 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1970,7 +2109,7 @@
 			)
 		)
 		(property "Description" "SMD 0201 MLCC capacitor, Alternate KiCad Library"
-			(at 134.62 115.57 0)
+			(at 133.35 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1995,7 +2134,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 63.5 113.03 0)
+		(at 35.56 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2004,7 +2143,7 @@
 		(fields_autoplaced yes)
 		(uuid "73e1c93d-d233-4f79-b1b9-ab9f58ba4797")
 		(property "Reference" "#PWR049"
-			(at 63.5 119.38 0)
+			(at 35.56 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2013,7 +2152,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 66.04 114.2999 0)
+			(at 38.1 134.6199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2022,7 +2161,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 63.5 113.03 0)
+			(at 35.56 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2031,7 +2170,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 113.03 0)
+			(at 35.56 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2040,7 +2179,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 63.5 113.03 0)
+			(at 35.56 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2062,7 +2201,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 63.5 93.98 0)
+		(at 35.56 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2071,7 +2210,7 @@
 		(fields_autoplaced yes)
 		(uuid "de483660-af45-4c05-9edc-01f77050e6ea")
 		(property "Reference" "#PWR040"
-			(at 63.5 97.79 0)
+			(at 35.56 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2080,7 +2219,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 63.5 88.9 0)
+			(at 35.56 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2088,7 +2227,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 63.5 93.98 0)
+			(at 35.56 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2097,7 +2236,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 93.98 0)
+			(at 35.56 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2106,7 +2245,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 63.5 93.98 0)
+			(at 35.56 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2128,7 +2267,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 120.65 110.49 180)
+		(at 119.38 123.19 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2137,7 +2276,7 @@
 		(fields_autoplaced yes)
 		(uuid "e666680f-06d5-4a2c-9692-c8356237f8bf")
 		(property "Reference" "R13"
-			(at 123.19 109.2199 0)
+			(at 121.92 121.9199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2146,7 +2285,7 @@
 			)
 		)
 		(property "Value" "2.76M"
-			(at 123.19 111.7599 0)
+			(at 121.92 124.4599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2155,7 +2294,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 119.634 110.236 90)
+			(at 118.364 122.936 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2164,7 +2303,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 120.65 110.49 0)
+			(at 119.38 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2173,7 +2312,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 120.65 110.49 0)
+			(at 119.38 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
