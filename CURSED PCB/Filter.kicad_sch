@@ -724,16 +724,6 @@
 		)
 		(uuid "04882d8f-3e47-4e5e-8ed9-9c2afdc7ff96")
 	)
-	(text "These values are subject to change in expected freq changes"
-		(exclude_from_sim no)
-		(at 90.678 65.278 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "3754356d-a0ec-4db8-b46c-0eba24437643")
-	)
 	(junction
 		(at 111.76 86.36)
 		(diameter 0)
