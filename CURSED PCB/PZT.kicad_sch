@@ -1209,6 +1209,26 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "These low pass filter values will change in the future"
+		(exclude_from_sim no)
+		(at 46.228 114.046 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "13c94860-7c7c-4cd4-9c73-6ec7743c5adb")
+	)
+	(text "May need to supply 5-24V to PZT, the amount will be controlled by MCU"
+		(exclude_from_sim no)
+		(at 92.202 47.498 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "331b1b42-46f7-4509-ab7e-76f91654bd7f")
+	)
 	(text "Acceptable Voltage Flucation of +-0.5V \nLow pass introduced to force the acceptable voltage range\n\nReistior to be found experimentally \n\nProof in google sheets labbeled \"Experimental & PCB Data Setup Master\" under Photodiode Experimental Data, \nRequirments & Comparison of PZT & Comparison of PZT to Generated Current in Payload GOogle drive"
 		(exclude_from_sim no)
 		(at 71.374 152.146 0)

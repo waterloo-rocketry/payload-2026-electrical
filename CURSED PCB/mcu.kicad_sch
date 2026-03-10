@@ -3865,7 +3865,7 @@
 		(dnp no)
 		(uuid "1c2fe092-4bd0-4d9c-a8fe-4e006b8a79cf")
 		(property "Reference" "C7"
-			(at 196.088 53.34 0)
+			(at 196.088 61.722 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3874,7 +3874,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 196.088 55.88 0)
+			(at 196.088 64.262 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5176,7 +5176,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 178.308 56.134 0)
+			(at 176.784 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)

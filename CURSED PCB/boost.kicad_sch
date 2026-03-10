@@ -1514,7 +1514,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LBM2016T120J:INDC2016X180N"
+		(property "Footprint" "ul_NRH3010T100MN:IND_TAIYO_NRH3010_TAY"
 			(at 95.25 88.9 0)
 			(effects
 				(font
