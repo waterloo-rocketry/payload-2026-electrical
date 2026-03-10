@@ -726,7 +726,7 @@
 	)
 	(text "These values are subject to change in expected freq changes"
 		(exclude_from_sim no)
-		(at 40.132 81.026 0)
+		(at 90.678 65.278 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1034,7 +1034,7 @@
 				)
 			)
 		)
-		(property "Value" "47nF"
+		(property "Value" "100nF"
 			(at 82.5563 72.39 90)
 			(effects
 				(font
@@ -1103,7 +1103,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "20nF"
+		(property "Value" "43nF"
 			(at 93.98 110.4962 0)
 			(effects
 				(font
@@ -1305,7 +1305,7 @@
 				)
 			)
 		)
-		(property "Value" "986"
+		(property "Value" "2.9k"
 			(at 64.77 96.52 90)
 			(effects
 				(font
@@ -1373,7 +1373,7 @@
 				)
 			)
 		)
-		(property "Value" "2.23k"
+		(property "Value" "6.3k"
 			(at 81.28 96.52 90)
 			(effects
 				(font

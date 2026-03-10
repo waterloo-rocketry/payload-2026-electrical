@@ -1650,7 +1650,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "EMK107B7105KA-T:CAPC1608X90N"
 			(at 64.4652 111.76 0)
 			(effects
 				(font
@@ -1951,7 +1951,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "MCASU31LSB5105KTNA01:CAPC3216X180N"
 			(at 135.5852 119.38 0)
 			(effects
 				(font

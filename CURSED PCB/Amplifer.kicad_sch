@@ -1580,16 +1580,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "These values are subject to change in expected freq changes"
-		(exclude_from_sim no)
-		(at 103.632 108.712 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "218d524d-f530-4489-a00a-f18141eeaa9f")
-	)
 	(text "Math is done on a google sheets labbeled \"Experimental & PCB Data Setup Master\" under Transimpedance Amplifer\nGoogle sheet is found under payload 2026 under data magnement "
 		(exclude_from_sim no)
 		(at 144.78 136.398 0)
@@ -2403,7 +2393,7 @@
 				)
 			)
 		)
-		(property "Value" "3200nF"
+		(property "Value" "6500nF"
 			(at 154.9463 120.65 90)
 			(effects
 				(font
