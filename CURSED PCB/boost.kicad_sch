@@ -1191,7 +1191,7 @@
 	)
 	(text "Reference photos, calculations all in Payload Experimental & PCB Data Setup Master\nunder Booster sheet"
 		(exclude_from_sim no)
-		(at 61.722 153.924 0)
+		(at 75.946 152.908 0)
 		(effects
 			(font
 				(size 1.27 1.27)

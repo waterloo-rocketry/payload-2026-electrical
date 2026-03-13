@@ -1668,7 +1668,7 @@
 	)
 	(text "R_shunt = (VOUT / GAIN)/ Current\n\nVOUT = 3.3\nGain = 100\nCurrent = 1A\nR_shunt = 33 mohm"
 		(exclude_from_sim no)
-		(at 65.786 43.688 0)
+		(at 65.786 38.608 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2532,7 +2532,7 @@
 				)
 			)
 		)
-		(property "Value" "1A"
+		(property "Value" "1.5A"
 			(at 53.34 53.34 90)
 			(effects
 				(font

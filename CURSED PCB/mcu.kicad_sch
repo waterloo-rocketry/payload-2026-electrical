@@ -2631,6 +2631,30 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 173.99 104.14)
+		(end 273.05 162.56)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 23ad39e9-055f-4757-8f7b-c6808f86ab7d)
+	)
+	(rectangle
+		(start 21.59 115.57)
+		(end 124.46 175.26)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid a0388f21-6999-4577-8540-a4e101d362f8)
+	)
 	(text "Laser: https://www.iadiy.com/infrared-laser-module-LM9IR830H200D&path=168_173"
 		(exclude_from_sim no)
 		(at 225.298 159.512 0)
@@ -2641,15 +2665,45 @@
 		)
 		(uuid "1467aa35-64ef-4097-a5f9-27efbfccd955")
 	)
-	(text "C5=C6=2*(C_L - C_S)\n\nC_L = 8 \nC_S = 5\n\nC5=C6=6"
+	(text "Laser"
 		(exclude_from_sim no)
-		(at 37.338 137.414 0)
+		(at 177.8 106.426 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c289e621-1c4c-440a-8708-14112db0734d")
+	)
+	(text "Oscillator"
+		(exclude_from_sim no)
+		(at 27.178 117.602 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c67094ef-57fa-4ce4-b434-da5e0af20607")
+	)
+	(text "C5=C6=2*(C_L - C_S)\n\nC_L = 8 \nC_S = 5\n\nC5=C6=6\n\nSource: https://microchip.my.site.com/s/article/Calculating-crystal-load-capacitor"
+		(exclude_from_sim no)
+		(at 71.882 161.29 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "ce557ff8-b70b-499c-a989-09845b2787e1")
+	)
+	(text "Required saftey for 3B laser:\n- MCU command to allow current to laser\n- Phyiscal jumper to laser"
+		(exclude_from_sim no)
+		(at 252.73 123.444 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e417b31a-cc17-46bb-8314-af14322d5b89")
 	)
 	(junction
 		(at 39.37 48.26)
