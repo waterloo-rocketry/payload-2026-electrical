@@ -1231,7 +1231,7 @@
 		)
 		(uuid "13c94860-7c7c-4cd4-9c73-6ec7743c5adb")
 	)
-	(text "May need to supply 5-24V to PZT, the amount will be controlled by MCU"
+	(text "May need to supply 5-24V to PZT, the amount will be controlled by MCU.\nThe plan is to command the DAC through SPI from the MCU to output some amount of voltage to PZT"
 		(exclude_from_sim no)
 		(at 92.202 47.498 0)
 		(effects

@@ -2532,7 +2532,7 @@
 				)
 			)
 		)
-		(property "Value" "1.5A"
+		(property "Value" "1A"
 			(at 53.34 53.34 90)
 			(effects
 				(font
