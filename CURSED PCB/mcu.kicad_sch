@@ -2801,12 +2801,6 @@
 		(color 0 0 0 0)
 		(uuid "c2f7372f-34c5-4364-a26a-210b0eeb43ee")
 	)
-	(junction
-		(at 175.26 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dde82e05-ee84-48fb-a2e0-4e7073dc3329")
-	)
 	(no_connect
 		(at 149.86 69.85)
 		(uuid "02c863fd-8902-4388-9f3d-7b3918f6665f")
@@ -3239,16 +3233,6 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 77.47) (xy 185.42 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "91bdfc9a-5472-40b1-a337-cf720683a415")
-	)
-	(wire
-		(pts
 			(xy 77.47 74.93) (xy 85.09 74.93)
 		)
 		(stroke
@@ -3576,16 +3560,6 @@
 			(type default)
 		)
 		(uuid "f4fa69d7-8510-40e3-bace-f01dcc44448b")
-	)
-	(wire
-		(pts
-			(xy 185.42 77.47) (xy 185.42 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f81a9599-e2fc-4e84-8626-d30bfb41417e")
 	)
 	(wire
 		(pts
@@ -4506,72 +4480,6 @@
 			(project "sensor_1"
 				(path "/9fb1a86f-679c-4b88-9ed1-932f4f414580/41420b15-6c64-4efb-bbe3-7adb1c52b946"
 					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 185.42 81.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "449f9b7e-1fc9-4cd0-9380-9a7db45029b3")
-		(property "Reference" "#PWR069"
-			(at 185.42 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 185.4201 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 185.42 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 185.42 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 185.42 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "99bc6347-96b1-429e-9750-2f62281fa0e1")
-		)
-		(instances
-			(project "sensor_1"
-				(path "/9fb1a86f-679c-4b88-9ed1-932f4f414580/41420b15-6c64-4efb-bbe3-7adb1c52b946"
-					(reference "#PWR069")
 					(unit 1)
 				)
 			)
