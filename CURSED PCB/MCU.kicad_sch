@@ -3079,7 +3079,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 134.62) (xy 204.47 133.35)
+			(xy 204.47 134.62) (xy 204.47 130.81)
 		)
 		(stroke
 			(width 0)
@@ -3259,7 +3259,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 72.39) (xy 109.22 72.39)
+			(xy 77.47 72.39) (xy 109.22 72.39)
 		)
 		(stroke
 			(width 0)
@@ -3657,7 +3657,7 @@
 		)
 		(uuid "dd40a6a4-ab1a-4a59-9ff7-853104ba7576")
 	)
-	(hierarchical_label "CS2"
+	(hierarchical_label "SD_CS"
 		(shape input)
 		(at 77.47 100.33 180)
 		(effects
@@ -3701,9 +3701,9 @@
 		)
 		(uuid "2a3b8137-d980-4905-b589-635415787eba")
 	)
-	(hierarchical_label "CS"
+	(hierarchical_label "CS_ADC"
 		(shape input)
-		(at 91.44 72.39 180)
+		(at 77.47 72.39 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4936,7 +4936,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3VA")
-		(at 204.47 133.35 0)
+		(at 204.47 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4945,7 +4945,7 @@
 		(fields_autoplaced yes)
 		(uuid "5e53cdf7-daea-433c-a928-b8e58f851fa7")
 		(property "Reference" "#PWR015"
-			(at 204.47 137.16 0)
+			(at 204.47 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4954,7 +4954,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 204.47 128.27 0)
+			(at 204.47 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4962,7 +4962,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 204.47 133.35 0)
+			(at 204.47 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4971,7 +4971,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 204.47 133.35 0)
+			(at 204.47 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4980,7 +4980,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
-			(at 204.47 133.35 0)
+			(at 204.47 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)

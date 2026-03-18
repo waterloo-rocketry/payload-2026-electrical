@@ -2413,6 +2413,17 @@
 		)
 		(uuid "8ee70a02-553e-47ed-8967-71910e64d6d3")
 	)
+	(hierarchical_label "CS_ADC"
+		(shape input)
+		(at 267.97 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bc5e3da5-08f4-4eb1-b6aa-9681254b0462")
+	)
 	(hierarchical_label "MKLKIN"
 		(shape input)
 		(at 267.97 80.01 0)
@@ -2434,17 +2445,6 @@
 			(justify left)
 		)
 		(uuid "d8b65078-45da-4d30-8c66-228c2c468924")
-	)
-	(hierarchical_label "CS"
-		(shape input)
-		(at 267.97 92.71 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ea0da571-889e-40d5-bd05-1979dd57d48f")
 	)
 	(symbol
 		(lib_id "Device:C_Small")
