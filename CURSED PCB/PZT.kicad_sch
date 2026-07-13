@@ -1243,7 +1243,7 @@
 	)
 	(text "Acceptable Voltage Flucation of +-0.5V \nLow pass introduced to force the acceptable voltage range\n\nReistior to be found experimentally \n\nProof in google sheets labbeled \"Experimental & PCB Data Setup Master\" under Photodiode Experimental Data, \nRequirments & Comparison of PZT & Comparison of PZT to Generated Current in Payload GOogle drive"
 		(exclude_from_sim no)
-		(at 69.596 140.208 0)
+		(at 72.39 139.446 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1318,10 +1318,6 @@
 		(uuid "e7722060-0c9c-4226-9c76-009197767f12")
 	)
 	(no_connect
-		(at 90.17 62.23)
-		(uuid "a83aede2-e62e-49e1-bbf7-e45a44d66bdf")
-	)
-	(no_connect
 		(at 72.39 62.23)
 		(uuid "b23720ef-c78c-4b95-a357-83a9bf86711c")
 	)
@@ -1348,16 +1344,6 @@
 			(type default)
 		)
 		(uuid "0779bb2d-f3c4-434c-af40-3d1d1e167ed4")
-	)
-	(wire
-		(pts
-			(xy 85.09 129.54) (xy 95.25 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "098059d3-68b2-4091-bdf6-f7ac002fdb5b")
 	)
 	(wire
 		(pts
@@ -1448,6 +1434,16 @@
 			(type default)
 		)
 		(uuid "63d43452-1c29-4cf6-8e91-a72a786f85eb")
+	)
+	(wire
+		(pts
+			(xy 85.09 129.54) (xy 160.02 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76588fa5-e637-4a47-8727-1eaa8a26b838")
 	)
 	(wire
 		(pts
@@ -1785,7 +1781,7 @@
 	)
 	(hierarchical_label "PZT"
 		(shape input)
-		(at 95.25 129.54 0)
+		(at 160.02 129.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1851,6 +1847,24 @@
 			)
 		)
 		(property "Description" "SMD 0201 MLCC capacitor, Alternate KiCad Library"
+			(at 142.24 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUN_PACKAGE_HEIGHT" ""
+			(at 142.24 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
 			(at 142.24 96.52 0)
 			(effects
 				(font
@@ -1987,6 +2001,24 @@
 			)
 		)
 		(property "Description" "SMD 0201 MLCC capacitor, Alternate KiCad Library"
+			(at 147.32 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUN_PACKAGE_HEIGHT" ""
+			(at 147.32 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
 			(at 147.32 96.52 0)
 			(effects
 				(font
@@ -2197,6 +2229,24 @@
 				(hide yes)
 			)
 		)
+		(property "MAXIMUN_PACKAGE_HEIGHT" ""
+			(at 116.84 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 116.84 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7a84d01f-7846-4dff-a382-a42c61eb0749")
 		)
@@ -2240,7 +2290,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "AD5761BRUZ:SOP65P640X120-16N"
+		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
 			(at 82.55 77.47 0)
 			(effects
 				(font
@@ -2358,6 +2408,24 @@
 				(hide yes)
 			)
 		)
+		(property "MAXIMUN_PACKAGE_HEIGHT" ""
+			(at 82.55 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 82.55 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "77e418a5-0c81-4a4a-9a78-f98458bb173f")
 		)
@@ -2466,6 +2534,24 @@
 				(hide yes)
 			)
 		)
+		(property "MAXIMUN_PACKAGE_HEIGHT" ""
+			(at 81.28 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 81.28 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e73d53ae-1b70-4fd5-b368-3466921286b2")
 		)
@@ -2535,6 +2621,24 @@
 				(hide yes)
 			)
 		)
+		(property "MAXIMUN_PACKAGE_HEIGHT" ""
+			(at 85.09 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 85.09 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d347a481-388b-4163-8f6d-258867c7fc32")
 		)
@@ -2596,6 +2700,24 @@
 			)
 		)
 		(property "Description" "SMD 0201 MLCC capacitor, Alternate KiCad Library"
+			(at 110.49 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUN_PACKAGE_HEIGHT" ""
+			(at 110.49 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
 			(at 110.49 110.49 0)
 			(effects
 				(font
@@ -2797,6 +2919,24 @@
 		)
 		(property "Description" "SMD 0201 MLCC capacitor, Alternate KiCad Library"
 			(at 81.28 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUN_PACKAGE_HEIGHT" ""
+			(at 81.28 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 81.28 115.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)

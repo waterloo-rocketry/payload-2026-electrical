@@ -1832,7 +1832,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 141.2748 92.71 0)
 			(effects
 				(font
@@ -1968,7 +1968,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 146.3548 92.71 0)
 			(effects
 				(font
@@ -2170,7 +2170,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 115.8748 106.68 0)
 			(effects
 				(font
@@ -2419,7 +2419,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "7867b847-976f-4f71-b835-e07562c49c81")
 		(property "Reference" "C33"
 			(at 81.534 106.172 90)
@@ -2430,7 +2430,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100uF"
 			(at 74.168 105.156 90)
 			(effects
 				(font
@@ -2439,7 +2439,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 85.09 108.2548 0)
 			(effects
 				(font
@@ -2488,7 +2488,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "7ecc3396-1edc-4d39-aa57-d58d80e63d53")
 		(property "Reference" "R3"
 			(at 88.9 108.712 0)
@@ -2499,7 +2499,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Unkown"
+		(property "Value" "0R"
 			(at 88.9 111.252 0)
 			(effects
 				(font
@@ -2508,7 +2508,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 86.106 100.584 90)
 			(effects
 				(font
@@ -2577,7 +2577,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 109.5248 106.68 0)
 			(effects
 				(font
@@ -2757,7 +2757,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "cabef445-f409-4634-9b03-12e33a47739c")
 		(property "Reference" "C34"
 			(at 81.788 119.38 90)
@@ -2777,7 +2777,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 85.09 114.6048 0)
 			(effects
 				(font

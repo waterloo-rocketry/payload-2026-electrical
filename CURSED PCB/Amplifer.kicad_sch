@@ -1651,6 +1651,12 @@
 		(uuid "5da25f08-aab7-4536-a5b5-53aafd42becb")
 	)
 	(junction
+		(at 92.71 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5f05676f-767c-49d3-b4cc-7182493e5339")
+	)
+	(junction
 		(at 138.43 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1673,12 +1679,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9bca5f22-83d2-4d29-a01c-5e60f63d2151")
-	)
-	(junction
-		(at 91.44 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b688b264-63c5-446f-813a-f7d6b062f780")
 	)
 	(junction
 		(at 229.87 63.5)
@@ -1789,6 +1789,16 @@
 			(type default)
 		)
 		(uuid "1d729cee-e0d1-4978-a0d8-1e9546821bd4")
+	)
+	(wire
+		(pts
+			(xy 91.44 95.25) (xy 91.44 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e58ba82-6801-4ae8-82b9-aaa4e45c017c")
 	)
 	(wire
 		(pts
@@ -1912,26 +1922,6 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 95.25) (xy 91.44 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "424c50c7-3b5d-4f88-83ba-94131f47ebb6")
-	)
-	(wire
-		(pts
-			(xy 91.44 87.63) (xy 134.62 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e74674b-2401-4d41-aa47-dc22f38ee1b3")
-	)
-	(wire
-		(pts
 			(xy 138.43 71.12) (xy 142.24 71.12)
 		)
 		(stroke
@@ -2002,16 +1992,6 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 85.09) (xy 229.87 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "733c0bb6-1398-46f3-96d4-b90f4fe8342f")
-	)
-	(wire
-		(pts
 			(xy 260.35 68.58) (xy 260.35 74.93)
 		)
 		(stroke
@@ -2069,16 +2049,6 @@
 			(type default)
 		)
 		(uuid "8c3578c6-34d6-40ec-a519-2dee14670701")
-	)
-	(wire
-		(pts
-			(xy 90.17 95.25) (xy 91.44 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "91a908dc-e5f8-43a8-87b5-62397a9420dc")
 	)
 	(wire
 		(pts
@@ -2192,6 +2162,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 87.63) (xy 92.71 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2853db0-168f-40f5-b4fe-d6a19923e212")
+	)
+	(wire
+		(pts
 			(xy 260.35 90.17) (xy 267.97 90.17)
 		)
 		(stroke
@@ -2252,7 +2232,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 85.09) (xy 184.15 85.09)
+			(xy 176.53 85.09) (xy 229.87 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2269,6 +2249,16 @@
 			(type default)
 		)
 		(uuid "dd2f2abc-ff2f-4b58-9b81-5a184b5ada7a")
+	)
+	(wire
+		(pts
+			(xy 92.71 87.63) (xy 134.62 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df36c1d4-acdc-4e6b-a211-861b99df10cd")
 	)
 	(wire
 		(pts
@@ -2500,6 +2490,24 @@
 				(hide yes)
 			)
 		)
+		(property "MAXIMUN_PACKAGE_HEIGHT" ""
+			(at 154.94 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 154.94 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "aaca6a8c-e7d5-4b60-9e42-4a728acc0b03")
 		)
@@ -2633,6 +2641,24 @@
 				(hide yes)
 			)
 		)
+		(property "MAXIMUN_PACKAGE_HEIGHT" ""
+			(at 148.59 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 148.59 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "da2158ff-5ee1-4ddf-9742-0f20bd749ccb")
 		)
@@ -2695,6 +2721,24 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 262.89 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUN_PACKAGE_HEIGHT" ""
+			(at 262.89 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 262.89 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2971,6 +3015,24 @@
 				(hide yes)
 			)
 		)
+		(property "MAXIMUN_PACKAGE_HEIGHT" ""
+			(at 262.89 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 262.89 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4fba88ab-30b7-41ff-860f-ec019753bd3b")
 		)
@@ -3034,6 +3096,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 129.54 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUN_PACKAGE_HEIGHT" ""
+			(at 129.54 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
 			(at 129.54 74.93 0)
 			(effects
 				(font
@@ -3111,6 +3191,24 @@
 				(hide yes)
 			)
 		)
+		(property "MAXIMUN_PACKAGE_HEIGHT" ""
+			(at 232.41 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 232.41 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f0302f3f-ab64-4405-adee-121933957093")
 		)
@@ -3171,6 +3269,24 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 138.43 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUN_PACKAGE_HEIGHT" ""
+			(at 138.43 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 138.43 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3328,7 +3444,7 @@
 	)
 	(symbol
 		(lib_id "Sensor_Optical:BPW34")
-		(at 91.44 90.17 90)
+		(at 91.44 92.71 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3337,25 +3453,25 @@
 		(fields_autoplaced yes)
 		(uuid "7b48ed7e-a20b-4c4b-b15a-4d017ecc9948")
 		(property "Reference" "D4"
-			(at 93.98 89.827 90)
+			(at 96.52 90.5128 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "ODD-5WISOL"
-			(at 93.98 92.367 90)
+			(at 96.52 93.0528 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-5-3"
-			(at 86.995 90.17 0)
+			(at 95.885 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3363,8 +3479,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 97.028 91.44 0)
+		(property "Datasheet" "https://optodiode.com/pdf/ODD-5WISOL.pdf"
+			(at 85.852 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3373,7 +3489,25 @@
 			)
 		)
 		(property "Description" "Silicon PIN Photodiode"
-			(at 91.44 90.17 0)
+			(at 91.44 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUN_PACKAGE_HEIGHT" ""
+			(at 91.44 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 91.44 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3436,7 +3570,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa4196.pdf"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6147/opa2323.pdf"
 			(at 156.21 80.01 0)
 			(effects
 				(font
@@ -3446,6 +3580,24 @@
 			)
 		)
 		(property "Description" "Single, Low-Power, Low Offset Voltage, Rail-to-Rail Operational Amplifier, SOT-23-5"
+			(at 156.21 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUN_PACKAGE_HEIGHT" ""
+			(at 156.21 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
 			(at 156.21 85.09 0)
 			(effects
 				(font
@@ -3666,6 +3818,24 @@
 				(hide yes)
 			)
 		)
+		(property "MAXIMUN_PACKAGE_HEIGHT" ""
+			(at 154.94 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 154.94 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "103350ac-6f81-49c3-813c-4301660f67c7")
 		)
@@ -3683,7 +3853,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 91.44 96.52 0)
+		(at 91.44 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3692,7 +3862,7 @@
 		(fields_autoplaced yes)
 		(uuid "a77f8fa3-2179-4119-a92b-22afe9cf8334")
 		(property "Reference" "#PWR036"
-			(at 91.44 102.87 0)
+			(at 91.44 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3701,7 +3871,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 93.98 97.7899 0)
+			(at 93.98 99.0599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3710,7 +3880,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 96.52 0)
+			(at 91.44 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3719,7 +3889,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 96.52 0)
+			(at 91.44 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3728,7 +3898,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 91.44 96.52 0)
+			(at 91.44 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4011,6 +4181,24 @@
 				(hide yes)
 			)
 		)
+		(property "MAXIMUN_PACKAGE_HEIGHT" ""
+			(at 245.11 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 245.11 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
 			(uuid "a94f48d7-efa3-44f5-bd95-e387dce210a8")
 		)
@@ -4127,6 +4315,24 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 232.41 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUN_PACKAGE_HEIGHT" ""
+			(at 232.41 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 232.41 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4279,68 +4485,6 @@
 				(path "/9fb1a86f-679c-4b88-9ed1-932f4f414580/543706d6-8cb0-4c51-81f6-888765ec3907"
 					(reference "#PWR061")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(sheet
-		(at 184.15 76.2)
-		(size 25.4 21.59)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "1dbad184-dd5f-4b28-bd02-77889e07b3d7")
-		(property "Sheetname" "anti-aliasing filter"
-			(at 184.15 75.4884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Filter.kicad_sch"
-			(at 184.15 98.3746 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "VOUT" input
-			(at 209.55 85.09 0)
-			(uuid "fb7af2ea-e9c7-46ca-ba9b-c6bcfd12116f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "VIN" output
-			(at 184.15 85.09 180)
-			(uuid "18f01097-86f6-4dfe-8c2e-78cbaaee9427")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "sensor_1"
-				(path "/9fb1a86f-679c-4b88-9ed1-932f4f414580/543706d6-8cb0-4c51-81f6-888765ec3907"
-					(page "4")
 				)
 			)
 		)
