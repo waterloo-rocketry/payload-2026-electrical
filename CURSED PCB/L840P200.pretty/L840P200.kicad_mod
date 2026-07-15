@@ -1,0 +1,116 @@
+(footprint "L840P200"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 7.5 -3.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "3d1b2e63-947d-4f7c-8b98-7eb3b9f9a1b8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "L840P200"
+		(at 0 6.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "5fde2b91-2ac4-4f5c-9820-1e8308e7587c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "190910bd-426f-4a3e-9591-e279d3e7101f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fb438f1c-495a-4a44-bb85-be3829f66b65")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center 0 0)
+		(end 2.1 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "7a047d91-201f-40e9-8411-b63db4383f9f")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 4.1 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "1da69527-5f83-4dbc-bfc6-431860bc2910")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "371a78a1-7764-47e2-b707-fec9f58fa58b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -1 0)
+		(size 0.7 0.7)
+		(drill 0.45)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "26582f2f-8c9a-4446-8259-5f22d077445f")
+	)
+	(pad "2" thru_hole circle
+		(at 1 0)
+		(size 0.7 0.7)
+		(drill 0.45)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "cf2d81a7-624e-4a35-b5a2-10cffecb1cd7")
+	)
+	(pad "3" thru_hole circle
+		(at 0 1)
+		(size 0.7 0.7)
+		(drill 0.45)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "47d69ffc-6441-4385-a918-dd4627edc0e3")
+	)
+	(embedded_fonts no)
+)

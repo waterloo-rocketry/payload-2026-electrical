@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "L840P200")(type "KiCad")(uri "${KIPRJMOD}/L840P200.pretty")(options "")(descr ""))
+)
